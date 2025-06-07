@@ -18,6 +18,7 @@ def calculate_distance(coord1, coord2):
     return geodesic(coord1, coord2).meters
 
 def process_video(video_path, json_path, output_subdir):
+    video_name = video_path.stem  # Dodaj ime videa
     cap = cv2.VideoCapture(str(video_path))
     if not cap.isOpened():
         print(f"[!] Cannot open video: {video_path}")
@@ -41,7 +42,7 @@ def process_video(video_path, json_path, output_subdir):
 
             if previous_coordinates:
                 distance = calculate_distance(previous_coordinates, (lat, lon))
-                if distance > 35:  # Adjust distance threshold if needed
+                if distance > 35:  # Udaljenost u metrima
                     frame_position = int(current_time * frame_rate)
                     cap.set(cv2.CAP_PROP_POS_FRAMES, frame_position)
                     ret, frame = cap.read()
@@ -51,8 +52,8 @@ def process_video(video_path, json_path, output_subdir):
                         frame_path = output_subdir / frame_name
                         cv2.imwrite(str(frame_path), frame)
 
-                        # Include timestamp in data
-                        frame_data.append([frame_name, lat, lon, current_time])
+                        # Dodaj sve podatke u CSV
+                        frame_data.append([frame_name, lat, lon, current_time, video_name])
 
                         previous_coordinates = (lat, lon)
                         previous_time = current_time
@@ -65,12 +66,15 @@ def process_video(video_path, json_path, output_subdir):
 
     # Spremi CSV
     if frame_data:
-        df = pd.DataFrame(frame_data, columns=["Image Name", "Latitude", "Longitude", "Timestamp (s)"])
-        csv_path = output_subdir / f"{video_path.stem}.csv"
+        df = pd.DataFrame(frame_data, columns=[
+            "Image Name", "Latitude", "Longitude", "Timestamp (s)", "Video Name"
+        ])
+        csv_path = output_subdir / f"{video_name}.csv"
         df.to_csv(csv_path, index=False)
         print(f"[✓] Processed {video_path.name}, saved to {output_subdir.name}")
     else:
         print(f"[!] No frames extracted from {video_path.name}")
+
 # Glavni dio – obradi sve videe
 for video_file in VIDEO_DIR.glob("*.mp4"):
     json_file = JSON_DIR / (video_file.stem + ".json")

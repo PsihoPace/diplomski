@@ -1,8 +1,7 @@
 import torch
-from torchvision import models, transforms
+from torchvision import models
 from PIL import Image
 import pandas as pd
-import numpy as np
 from pathlib import Path
 import psycopg2
 
@@ -18,11 +17,10 @@ DB_CONFIG = {
     "port": 5434
 }
 
-# Priprema modela
+# Priprema modela za dobivanje vektora
 model = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
-model = torch.nn.Sequential(*list(model.children())[:-1])  # ukloni klasifikator
+model = torch.nn.Sequential(*list(model.children())[:-1])
 model.eval()
-
 transform = models.ResNet18_Weights.DEFAULT.transforms()
 
 def get_embedding(image_path):
@@ -41,39 +39,46 @@ for folder in BASE_DIR.iterdir():
     if not folder.is_dir():
         continue
 
+    video_name = folder.name
     csv_files = list(folder.glob("*.csv"))
     if not csv_files:
-        print(f"[!] Nema CSV-a u: {folder.name}")
+        print(f"[!] Nema CSV-a u: {video_name}")
         continue
 
+    # Provjera postoji li već video u bazi
+    cur.execute("SELECT 1 FROM image_embeddings WHERE video_name = %s LIMIT 1", (video_name,))
+    if cur.fetchone():
+        print(f"[⏭] {video_name} već postoji u bazi — preskačem.")
+        continue
+
+    # Učitaj CSV
     df = pd.read_csv(csv_files[0])
     total = len(df)
 
-    for i, row in enumerate(df.iterrows(), start=1):
-        row = row[1]  # jer iterrows() vraća (index, row)
+    for i, row in df.iterrows():
         image_path = folder / row["Image Name"]
-        
+
         if not image_path.exists():
             print(f"[!] Slika ne postoji: {image_path}")
             continue
 
         embedding = get_embedding(image_path)
 
-        print(f"{folder.name}: [{i}/{total}]")
+        print(f"[{video_name}] {i+1}/{total} → ubacujem")
 
-        # Spremi sve u bazu
         cur.execute("""
-    INSERT INTO image_embeddings (image_name, latitude, longitude, timestamp, embedding)
-    VALUES (%s, %s, %s, %s, %s)
-""", (
-    row["Image Name"],
-    row["Latitude"],
-    row["Longitude"],
-    row["Timestamp (s)"],
-    embedding.tolist()
-))
+            INSERT INTO image_embeddings (image_name, latitude, longitude, timestamp, video_name, embedding)
+            VALUES (%s, %s, %s, %s, %s, %s)
+        """, (
+            row["Image Name"],
+            row["Latitude"],
+            row["Longitude"],
+            row["Timestamp (s)"],
+            row["Video Name"],
+            embedding.tolist()
+        ))
         conn.commit()
 
-print("✅ Svi podaci uspješno uneseni u bazu!")
+print("✅ Svi podaci uspješno uneseni u bazu.")
 cur.close()
 conn.close()

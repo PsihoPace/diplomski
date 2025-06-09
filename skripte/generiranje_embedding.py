@@ -59,7 +59,7 @@ embedding_str = "[" + ",".join(map(str, embedding_cosine)) + "]"
 
 cur.execute(f"""
     SELECT image_name, video_name, latitude, longitude, timestamp,
-           embedding <#> '{embedding_str}'::vector AS distance
+           embedding <=> '{embedding_str}'::vector AS distance
     FROM image_embeddings
     ORDER BY embedding <#> '{embedding_str}'::vector ASC
     LIMIT 5;

@@ -12,7 +12,7 @@ BASE_DIR = Path("D:/Diplomski/data")
 DB_CONFIG = {
     "dbname": "image_embeddings_db",
     "user": "postgres",
-    "password": "user123",  # zamijeni stvarnom lozinkom
+    "password": "user123",  
     "host": "localhost",
     "port": 5434
 }
@@ -34,7 +34,7 @@ def get_embedding(image_path):
 conn = psycopg2.connect(**DB_CONFIG)
 cur = conn.cursor()
 
-# Iteracija kroz sve podmape (npr. po videima)
+# Iteracija kroz sve podmape
 for folder in BASE_DIR.iterdir():
     if not folder.is_dir():
         continue
@@ -48,7 +48,7 @@ for folder in BASE_DIR.iterdir():
     # Provjera postoji li već video u bazi
     cur.execute("SELECT 1 FROM image_embeddings WHERE video_name = %s LIMIT 1", (video_name,))
     if cur.fetchone():
-        print(f"[⏭] {video_name} već postoji u bazi — preskačem.")
+        print(f"[!!] {video_name} već postoji u bazi — preskačem.")
         continue
 
     # Učitaj CSV

@@ -8,7 +8,7 @@ from pathlib import Path
 
 # Putanje
 BASE_DIR = Path("D:/Diplomski")
-VIDEO_DIR = BASE_DIR / "raw/videos"
+VIDEO_DIR = BASE_DIR / "raw/videos_1"
 JSON_DIR = BASE_DIR / "raw/json"
 OUTPUT_DIR = BASE_DIR / "data"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

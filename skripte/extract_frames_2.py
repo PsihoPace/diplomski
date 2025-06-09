@@ -18,7 +18,7 @@ def calculate_distance(coord1, coord2):
     return geodesic(coord1, coord2).meters
 
 def process_video(video_path, json_path, output_subdir):
-    video_name = video_path.stem  # Dodaj ime videa
+    video_name = video_path.stem  
     cap = cv2.VideoCapture(str(video_path))
     if not cap.isOpened():
         print(f"[!] Cannot open video: {video_path}")
@@ -42,7 +42,7 @@ def process_video(video_path, json_path, output_subdir):
 
             if previous_coordinates:
                 distance = calculate_distance(previous_coordinates, (lat, lon))
-                if distance > 35:  # Udaljenost u metrima
+                if distance > 27.5:  # VRIJEDNOST REZANJA
                     frame_position = int(current_time * frame_rate)
                     cap.set(cv2.CAP_PROP_POS_FRAMES, frame_position)
                     ret, frame = cap.read()

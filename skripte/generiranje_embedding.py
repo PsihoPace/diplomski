@@ -68,12 +68,13 @@ results = cur.fetchall()
 # --- Prikaz rezultata ---
 print("\n📌 Top 5 rezultata prema Kosinusnoj udaljenosti:\n")
 for i, row in enumerate(results, 1):
-    name, video, lon, lat, ts, dist = row  # ⚠️ latitude i longitude ZAMIJENJENI
+    name, video, lat, lon, ts, dist = row  
     print(f"{i}. {name} | {video} | ({lat:.5f}, {lon:.5f}) | t={ts:.2f}s | udaljenost={dist:.4f}")
 
-best_lon, best_lat = results[0][2], results[0][3]  # ZAMIJENI redoslijed ako je u bazi krivo
-maps_link = f"https://www.google.com/maps?q={lat:.7f},{lon:.7f}"
-address = reverse_geocode(lat, lon)
+# Prva (najbliža) lokacija
+best_lat, best_lon = results[0][2], results[0][3]
+maps_link = f"https://www.google.com/maps?q={best_lat:.7f},{best_lon:.7f}"
+address = reverse_geocode(best_lat, best_lon)
 
 print(f"\n🌍 Najbliža lokacija (Kosinusna udaljenost): {maps_link}")
 print(f"📌 Procijenjena adresa: {address}")

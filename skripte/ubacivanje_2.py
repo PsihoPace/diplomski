@@ -2,6 +2,7 @@ import torch
 from torchvision import models
 from PIL import Image
 import pandas as pd
+import numpy as np
 from pathlib import Path
 import psycopg2
 
@@ -64,6 +65,9 @@ for folder in BASE_DIR.iterdir():
 
         embedding = get_embedding(image_path)
 
+        # Normalize vector
+        embedding /= np.linalg.norm(embedding)
+
         print(f"[{video_name}] {i+1}/{total} → ubacujem")
 
         cur.execute("""
@@ -71,8 +75,8 @@ for folder in BASE_DIR.iterdir():
             VALUES (%s, %s, %s, %s, %s, %s)
         """, (
             row["Image Name"],
-            row["Latitude"],
-            row["Longitude"],
+            row["Longitude"],     # zamjena lon za lat
+            row["Latitude"],      # zamjena lat za long
             row["Timestamp (s)"],
             row["Video Name"],
             embedding.tolist()

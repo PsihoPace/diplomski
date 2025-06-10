@@ -8,7 +8,7 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
 # --- Postavke ---
-IMAGE_PATH = Path("D:/Diplomski/test_slika/test_bukovica2.png")
+IMAGE_PATH = Path("D:/Diplomski/test_slika/test_gospic.png")
 
 DB_CONFIG = {
     "dbname": "image_embeddings_db",
@@ -48,38 +48,47 @@ if not IMAGE_PATH.exists():
 embedding = get_image_embedding(IMAGE_PATH)
 embedding_cosine = embedding / np.linalg.norm(embedding)
 
-embedding_pgvector = "{" + ",".join(f"{x:.6f}" for x in embedding_cosine) + "}"
+embedding_str = "[" + ",".join(map(str, embedding_cosine)) + "]"
 
 # --- Spoji se na bazu ---
 conn = psycopg2.connect(**DB_CONFIG)
 cur = conn.cursor()
 
-# --- SQL upit za top 5 sličnih slika (kosinus) ---
-embedding_str = "[" + ",".join(map(str, embedding_cosine)) + "]"
-
+# --- Kosinusna udaljenost ---
 cur.execute(f"""
     SELECT image_name, video_name, latitude, longitude, timestamp,
            embedding <=> '{embedding_str}'::vector AS distance
     FROM image_embeddings
-    ORDER BY embedding <#> '{embedding_str}'::vector ASC
+    ORDER BY distance ASC
     LIMIT 5;
 """)
+cosine_results = cur.fetchall()
 
-results = cur.fetchall()
-
-# --- Prikaz rezultata ---
 print("\n📌 Top 5 rezultata prema Kosinusnoj udaljenosti:\n")
-for i, row in enumerate(results, 1):
-    name, video, lat, lon, ts, dist = row  
+for i, row in enumerate(cosine_results, 1):
+    name, video, lat, lon, ts, dist = row
     print(f"{i}. {name} | {video} | ({lat:.5f}, {lon:.5f}) | t={ts:.2f}s | udaljenost={dist:.4f}")
 
-# Prva (najbliža) lokacija
-best_lat, best_lon = results[0][2], results[0][3]
+best_lat, best_lon = cosine_results[0][2], cosine_results[0][3]
 maps_link = f"https://www.google.com/maps?q={best_lat:.7f},{best_lon:.7f}"
 address = reverse_geocode(best_lat, best_lon)
-
 print(f"\n🌍 Najbliža lokacija (Kosinusna udaljenost): {maps_link}")
 print(f"📌 Procijenjena adresa: {address}")
+
+# --- Euklidska udaljenost ---
+cur.execute(f"""
+    SELECT image_name, video_name, latitude, longitude, timestamp,
+           embedding <-> '{embedding_str}'::vector AS distance
+    FROM image_embeddings
+    ORDER BY distance ASC
+    LIMIT 5;
+""")
+euclidean_results = cur.fetchall()
+
+print("\n📌 Top 5 rezultata prema Euklidskoj udaljenosti:\n")
+for i, row in enumerate(euclidean_results, 1):
+    name, video, lat, lon, ts, dist = row
+    print(f"{i}. {name} | {video} | ({lat:.5f}, {lon:.5f}) | t={ts:.2f}s | udaljenost={dist:.4f}")
 
 # --- Zatvori konekciju ---
 cur.close()

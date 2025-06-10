@@ -8,7 +8,7 @@ INPUT_DIR = BASE_DIR / "input"
 RAW_DIR = BASE_DIR / "raw"
 
 FOLDERS = {
-    #"video_files.txt": RAW_DIR / "videos",
+    "video_files.txt": RAW_DIR / "videos",
     "json_files.txt": RAW_DIR / "json",
     "geojson_files.txt": RAW_DIR / "geojson",
 }

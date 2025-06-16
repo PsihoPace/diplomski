@@ -1,0 +1,20 @@
+CREATE EXTENSION IF NOT EXISTS vector;
+
+CREATE TABLE image_embeddings (
+    id SERIAL PRIMARY KEY,
+    image_name TEXT NOT NULL,
+    latitude DOUBLE PRECISION,
+    longitude DOUBLE PRECISION,
+    timestamp DOUBLE PRECISION,
+    video_name TEXT,
+    embedding VECTOR(512)  -- koristiš ResNet18 čiji embedding ima 512 dimenzija
+);
+
+CREATE INDEX ON image_embeddings
+USING ivfflat (embedding vector_cosine_ops)
+WITH (lists = 500);
+
+SET maintenance_work_mem = '200MB';
+
+SELECT image_name, embedding <=> embedding AS self_dist FROM image_embeddings;
+

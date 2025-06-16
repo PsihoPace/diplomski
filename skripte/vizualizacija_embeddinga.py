@@ -20,8 +20,7 @@ conn = psycopg2.connect(**DB_CONFIG)
 # Učitaj podatke iz baze
 df = pd.read_sql("""
     SELECT image_name, video_name, latitude, longitude, timestamp, embedding
-    FROM image_embeddings
-    LIMIT 2000;
+    FROM image_embeddings;
 """, conn)
 
 # Konverzija stringa u listu ako je potrebno

@@ -83,6 +83,11 @@ for video_file in VIDEO_DIR.glob("*.mp4"):
         continue
 
     output_subdir = OUTPUT_DIR / video_file.stem
-    output_subdir.mkdir(parents=True, exist_ok=True)
 
+    # Ako folder već postoji i nije prazan, preskoči
+    if output_subdir.exists() and any(output_subdir.iterdir()):
+        print(f"[-] Skipping {video_file.name}, already processed.")
+        continue
+
+    output_subdir.mkdir(parents=True, exist_ok=True)
     process_video(video_file, json_file, output_subdir)

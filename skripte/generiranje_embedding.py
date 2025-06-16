@@ -8,7 +8,7 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
 # --- Postavke ---
-IMAGE_PATH = Path("D:/Diplomski/test_slika/test_gospic.png")
+IMAGE_PATH = Path("D:/Diplomski/test_slika/test_pozega2.png")
 
 DB_CONFIG = {
     "dbname": "image_embeddings_db",
@@ -47,7 +47,6 @@ if not IMAGE_PATH.exists():
 
 embedding = get_image_embedding(IMAGE_PATH)
 embedding_cosine = embedding / np.linalg.norm(embedding)
-
 embedding_str = "[" + ",".join(map(str, embedding_cosine)) + "]"
 
 # --- Spoji se na bazu ---
@@ -67,13 +66,11 @@ cosine_results = cur.fetchall()
 print("\n📌 Top 5 rezultata prema Kosinusnoj udaljenosti:\n")
 for i, row in enumerate(cosine_results, 1):
     name, video, lat, lon, ts, dist = row
+    maps_link = f"https://www.google.com/maps?q={lat:.7f},{lon:.7f}"
+    address = reverse_geocode(lat, lon)
     print(f"{i}. {name} | {video} | ({lat:.5f}, {lon:.5f}) | t={ts:.2f}s | udaljenost={dist:.4f}")
-
-best_lat, best_lon = cosine_results[0][2], cosine_results[0][3]
-maps_link = f"https://www.google.com/maps?q={best_lat:.7f},{best_lon:.7f}"
-address = reverse_geocode(best_lat, best_lon)
-print(f"\n🌍 Najbliža lokacija (Kosinusna udaljenost): {maps_link}")
-print(f"📌 Procijenjena adresa: {address}")
+    print(f"   📍 Google Maps: {maps_link}")
+    print(f"   🏠 Adresa: {address}\n")
 
 # --- Euklidska udaljenost ---
 cur.execute(f"""
@@ -88,7 +85,11 @@ euclidean_results = cur.fetchall()
 print("\n📌 Top 5 rezultata prema Euklidskoj udaljenosti:\n")
 for i, row in enumerate(euclidean_results, 1):
     name, video, lat, lon, ts, dist = row
+    maps_link = f"https://www.google.com/maps?q={lat:.7f},{lon:.7f}"
+    address = reverse_geocode(lat, lon)
     print(f"{i}. {name} | {video} | ({lat:.5f}, {lon:.5f}) | t={ts:.2f}s | udaljenost={dist:.4f}")
+    print(f"   📍 Google Maps: {maps_link}")
+    print(f"   🏠 Adresa: {address}\n")
 
 # --- Zatvori konekciju ---
 cur.close()

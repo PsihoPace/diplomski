@@ -1,0 +1,33 @@
+Izvorna slika: test_0.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0063.jpg,45.3943184,17.0455529,0.0,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3943184,17.0455529"
+2,frame_0062.jpg,45.3943915,17.0457756,0.043198349666495384,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3943915,17.0457756"
+3,frame_0061.jpg,45.3944696,17.046,0.05513298511505127,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3944696,17.0460000"
+4,frame_0457.jpg,45.4123468,17.0744183,0.06516966417937431,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.4123468,17.0744183"
+5,frame_0237.jpg,45.4661484,17.3974175,0.06590104495889049,"D38, Bučje, Grad Pakrac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.4661484,17.3974175"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0063.jpg,45.3943184,17.0455529,0.0,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3943184,17.0455529"
+2,frame_0062.jpg,45.3943915,17.0457756,0.2939332471633558,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3943915,17.0457756"
+3,frame_0061.jpg,45.3944696,17.046,0.33206329191096584,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3944696,17.0460000"
+4,frame_0457.jpg,45.4123468,17.0744183,0.3610257094625171,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.4123468,17.0744183"
+5,frame_0237.jpg,45.4661484,17.3974175,0.36304548262872355,"D38, Bučje, Grad Pakrac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.4661484,17.3974175"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0063.jpg,45.3943184,17.0455529,0.0,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3943184,17.0455529"
+2,frame_0365.jpg,45.4191284,17.0936335,0.14123627122532167,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.4191284,17.0936335"
+3,frame_0086.jpg,45.4164389,17.1445771,0.14902916106494446,"Ulica Matije Gupca, Filipovac, Grad Lipik, Požeško-slavonska županija, 34551, Hrvatska","https://www.google.com/maps?q=45.4164389,17.1445771"
+4,frame_0364.jpg,45.4190984,17.0938587,0.15069710473672782,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.4190984,17.0938587"
+5,frame_0191.jpg,45.3068474,17.9205386,0.15210129450845122,"D38, Djedina Rijeka, Općina Čaglin, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3068474,17.9205386"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0063.jpg,45.3943184,17.0455529,0.0,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3943184,17.0455529"
+2,frame_0365.jpg,45.4191284,17.0936335,0.5314813278539295,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.4191284,17.0936335"
+3,frame_0086.jpg,45.4164389,17.1445771,0.5459472416061562,"Ulica Matije Gupca, Filipovac, Grad Lipik, Požeško-slavonska županija, 34551, Hrvatska","https://www.google.com/maps?q=45.4164389,17.1445771"
+4,frame_0364.jpg,45.4190984,17.0938587,0.5489941546088981,"D47, Korita, Grad Lipik, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.4190984,17.0938587"
+5,frame_0191.jpg,45.3068474,17.9205386,0.5515454989398588,"D38, Djedina Rijeka, Općina Čaglin, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3068474,17.9205386"

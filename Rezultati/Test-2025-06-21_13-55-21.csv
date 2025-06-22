@@ -1,0 +1,33 @@
+Izvorna slika: test_otocac.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0366.jpg,45.3125283,18.3779705,0.13087482040374243,"D38, Stočin, Mjensi odbor Regal Vajs, Đakovo, Grad Đakovo, Osječko-baranjska županija, 31400, Hrvatska","https://www.google.com/maps?q=45.3125283,18.3779705"
+2,frame_0737.jpg,43.6637083,16.0462413,0.13247720591520085,"D58, Plenčići (Liska), Vrpolje, Grad Šibenik, Šibensko-kninska županija, Hrvatska","https://www.google.com/maps?q=43.6637083,16.0462413"
+3,frame_0589.jpg,45.385912,14.7788367,0.13551027390421921,"D32, Lučice, Grad Delnice, Primorsko-goranska županija, 51317, Hrvatska","https://www.google.com/maps?q=45.3859120,14.7788367"
+4,frame_0486.jpg,43.2243715,17.1097283,0.13597579431245255,"D8, Rat, Drašnice, Općina Podgora, Splitsko-dalmatinska županija, 21328, Hrvatska","https://www.google.com/maps?q=43.2243715,17.1097283"
+5,frame_0048.jpg,45.0689824,14.0286829,0.13920957679805468,"D66, Barban, Općina Barban, Istarska županija, 52207, Hrvatska","https://www.google.com/maps?q=45.0689824,14.0286829"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0366.jpg,45.3125283,18.3779705,0.5116149855378507,"D38, Stočin, Mjensi odbor Regal Vajs, Đakovo, Grad Đakovo, Osječko-baranjska županija, 31400, Hrvatska","https://www.google.com/maps?q=45.3125283,18.3779705"
+2,frame_0737.jpg,43.6637083,16.0462413,0.5147371450915382,"D58, Plenčići (Liska), Vrpolje, Grad Šibenik, Šibensko-kninska županija, Hrvatska","https://www.google.com/maps?q=43.6637083,16.0462413"
+3,frame_0589.jpg,45.385912,14.7788367,0.5205964662442205,"D32, Lučice, Grad Delnice, Primorsko-goranska županija, 51317, Hrvatska","https://www.google.com/maps?q=45.3859120,14.7788367"
+4,frame_0486.jpg,43.2243715,17.1097283,0.5214898612773206,"D8, Rat, Drašnice, Općina Podgora, Splitsko-dalmatinska županija, 21328, Hrvatska","https://www.google.com/maps?q=43.2243715,17.1097283"
+5,frame_0048.jpg,45.0689824,14.0286829,0.5276544291538567,"D66, Barban, Općina Barban, Istarska županija, 52207, Hrvatska","https://www.google.com/maps?q=45.0689824,14.0286829"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0899.jpg,46.3302233,16.7243055,0.2132501133233362,"D20, Donji Mihaljevec, Općina Sveta Marija, Međimurska županija, 40326, Hrvatska","https://www.google.com/maps?q=46.3302233,16.7243055"
+2,frame_0026.jpg,46.0885124,15.9049514,0.21597528457641602,"D677, Sveti Križ Začretje, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0885124,15.9049514"
+3,frame_0003.jpg,44.542245,14.8984859,0.2190026044845581,"D106, Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5422450,14.8984859"
+4,frame_0444.jpg,43.6964382,16.5477134,0.22024273872375488,"D219, Mijići, Lučane, Sutina, Općina Muć, Splitsko-dalmatinska županija, Hrvatska","https://www.google.com/maps?q=43.6964382,16.5477134"
+5,frame_0079.jpg,44.1135626,15.4066302,0.2224177122116089,"D502, Zemunik Gornji, Općina Zemunik Donji, Zadarska županija, 23222, Hrvatska","https://www.google.com/maps?q=44.1135626,15.4066302"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0899.jpg,46.3302233,16.7243055,0.6530698287513218,"D20, Donji Mihaljevec, Općina Sveta Marija, Međimurska županija, 40326, Hrvatska","https://www.google.com/maps?q=46.3302233,16.7243055"
+2,frame_0026.jpg,46.0885124,15.9049514,0.6572295099563598,"D677, Sveti Križ Začretje, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0885124,15.9049514"
+3,frame_0003.jpg,44.542245,14.8984859,0.6618197997851797,"D106, Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5422450,14.8984859"
+4,frame_0444.jpg,43.6964382,16.5477134,0.663690844484203,"D219, Mijići, Lučane, Sutina, Općina Muć, Splitsko-dalmatinska županija, Hrvatska","https://www.google.com/maps?q=43.6964382,16.5477134"
+5,frame_0079.jpg,44.1135626,15.4066302,0.6669598595309467,"D502, Zemunik Gornji, Općina Zemunik Donji, Zadarska županija, 23222, Hrvatska","https://www.google.com/maps?q=44.1135626,15.4066302"

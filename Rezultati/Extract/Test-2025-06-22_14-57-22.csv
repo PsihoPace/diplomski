@@ -1,0 +1,33 @@
+Izvorna slika: extract_2.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0000.jpg,45.4504696,13.6365026,0.04615902900695801,"50012, Vrh, Plovanija - Plovania, Grad Buje, Istarska županija, 52460, Hrvatska","https://www.google.com/maps?q=45.4504696,13.6365026"
+2,frame_0001.jpg,45.450282,13.6366408,0.08174402008914905,"Vinjarija, Plovanija, Plovanija - Plovania, Grad Buje, Istarska županija, 52460, Hrvatska","https://www.google.com/maps?q=45.4502820,13.6366408"
+3,frame_0000.jpg,46.2427042,16.6271398,0.08586400235509695,"Stanica za tehnički pregled vozila - Centar Kovačić, 36, Koprivnička ulica, Ludbreg, Grad Ludbreg, Varaždinska županija, 42230, Hrvatska","https://www.google.com/maps?q=46.2427042,16.6271398"
+4,frame_0000.jpg,46.2427042,16.6271398,0.08586400235509695,"Stanica za tehnički pregled vozila - Centar Kovačić, 36, Koprivnička ulica, Ludbreg, Grad Ludbreg, Varaždinska županija, 42230, Hrvatska","https://www.google.com/maps?q=46.2427042,16.6271398"
+5,frame_0587.jpg,44.1922257,15.4245731,0.08633739270790608,"D8, Islam Latinski, Općina Posedarje, Zadarska županija, Hrvatska","https://www.google.com/maps?q=44.1922257,15.4245731"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0000.jpg,45.4504696,13.6365026,0.30383869685375436,"50012, Vrh, Plovanija - Plovania, Grad Buje, Istarska županija, 52460, Hrvatska","https://www.google.com/maps?q=45.4504696,13.6365026"
+2,frame_0001.jpg,45.450282,13.6366408,0.4043365495905805,"Vinjarija, Plovanija, Plovanija - Plovania, Grad Buje, Istarska županija, 52460, Hrvatska","https://www.google.com/maps?q=45.4502820,13.6366408"
+3,frame_0000.jpg,46.2427042,16.6271398,0.4144007722541341,"Stanica za tehnički pregled vozila - Centar Kovačić, 36, Koprivnička ulica, Ludbreg, Grad Ludbreg, Varaždinska županija, 42230, Hrvatska","https://www.google.com/maps?q=46.2427042,16.6271398"
+4,frame_0000.jpg,46.2427042,16.6271398,0.4144007722541341,"Stanica za tehnički pregled vozila - Centar Kovačić, 36, Koprivnička ulica, Ludbreg, Grad Ludbreg, Varaždinska županija, 42230, Hrvatska","https://www.google.com/maps?q=46.2427042,16.6271398"
+5,frame_0587.jpg,44.1922257,15.4245731,0.4155417416293691,"D8, Islam Latinski, Općina Posedarje, Zadarska županija, Hrvatska","https://www.google.com/maps?q=44.1922257,15.4245731"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0000.jpg,45.4504696,13.6365026,0.11072144242290938,"50012, Vrh, Plovanija - Plovania, Grad Buje, Istarska županija, 52460, Hrvatska","https://www.google.com/maps?q=45.4504696,13.6365026"
+2,frame_0001.jpg,45.450282,13.6366408,0.19505380347852108,"Vinjarija, Plovanija, Plovanija - Plovania, Grad Buje, Istarska županija, 52460, Hrvatska","https://www.google.com/maps?q=45.4502820,13.6366408"
+3,frame_0130.jpg,45.3097627,16.1164417,0.22391517304868536,"Roviška, Kralji, Roviška, Grad Glina, Sisačko-moslavačka županija, Hrvatska","https://www.google.com/maps?q=45.3097627,16.1164417"
+4,frame_0258.jpg,46.2114424,16.4710396,0.23571272109226715,"Ludbreška ulica, Svibovec, Grad Varaždinske Toplice, Varaždinska županija, 42223, Hrvatska","https://www.google.com/maps?q=46.2114424,16.4710396"
+5,frame_0185.jpg,45.2078618,13.6833415,0.23612967837243282,"D302, Žbandaj, Grad Poreč, Istarska županija, Hrvatska","https://www.google.com/maps?q=45.2078618,13.6833415"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0000.jpg,45.4504696,13.6365026,0.4705772073195107,"50012, Vrh, Plovanija - Plovania, Grad Buje, Istarska županija, 52460, Hrvatska","https://www.google.com/maps?q=45.4504696,13.6365026"
+2,frame_0001.jpg,45.450282,13.6366408,0.6245859682088204,"Vinjarija, Plovanija, Plovanija - Plovania, Grad Buje, Istarska županija, 52460, Hrvatska","https://www.google.com/maps?q=45.4502820,13.6366408"
+3,frame_0130.jpg,45.3097627,16.1164417,0.6692012993182596,"Roviška, Kralji, Roviška, Grad Glina, Sisačko-moslavačka županija, Hrvatska","https://www.google.com/maps?q=45.3097627,16.1164417"
+4,frame_0258.jpg,46.2114424,16.4710396,0.6866041979761127,"Ludbreška ulica, Svibovec, Grad Varaždinske Toplice, Varaždinska županija, 42223, Hrvatska","https://www.google.com/maps?q=46.2114424,16.4710396"
+5,frame_0185.jpg,45.2078618,13.6833415,0.68721136623293,"D302, Žbandaj, Grad Poreč, Istarska županija, Hrvatska","https://www.google.com/maps?q=45.2078618,13.6833415"

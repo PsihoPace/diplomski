@@ -1,0 +1,33 @@
+Izvorna slika: extract_1.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0001.jpg,44.5418858,14.8981977,0.07766142718974989,"Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5418858,14.8981977"
+2,frame_1390.jpg,44.5420747,14.8987326,0.10346770286560059,"D106, Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5420747,14.8987326"
+3,frame_0009.jpg,44.2128153,15.4685281,0.10833132266998291,"D106, Gajine, Posedarje, Općina Posedarje, Zadarska županija, 23242, Hrvatska","https://www.google.com/maps?q=44.2128153,15.4685281"
+4,frame_0371.jpg,44.5425421,14.8985293,0.10963661132076885,"D106, Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5425421,14.8985293"
+5,frame_0062.jpg,45.1563093,14.160059,0.11047578516458023,"D66, Lukarići, Vozilići, Općina Kršan, Istarska županija, 52232, Hrvatska","https://www.google.com/maps?q=45.1563093,14.1600590"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0001.jpg,44.5418858,14.8981977,0.3941101811034036,"Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5418858,14.8981977"
+2,frame_1390.jpg,44.5420747,14.8987326,0.454901550483577,"D106, Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5420747,14.8987326"
+3,frame_0009.jpg,44.2128153,15.4685281,0.4654704125340413,"D106, Gajine, Posedarje, Općina Posedarje, Zadarska županija, 23242, Hrvatska","https://www.google.com/maps?q=44.2128153,15.4685281"
+4,frame_0371.jpg,44.5425421,14.8985293,0.4682663647815981,"D106, Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5425421,14.8985293"
+5,frame_0062.jpg,45.1563093,14.160059,0.4700549874960105,"D66, Lukarići, Vozilići, Općina Kršan, Istarska županija, 52232, Hrvatska","https://www.google.com/maps?q=45.1563093,14.1600590"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0001.jpg,44.5418858,14.8981977,0.10577199178254537,"Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5418858,14.8981977"
+2,frame_1390.jpg,44.5420747,14.8987326,0.11739466643881447,"D106, Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5420747,14.8987326"
+3,frame_0562.jpg,45.0401465,14.6200701,0.159279465675354,"D102, Kornić, Grad Krk, Primorsko-goranska županija, 51517, Hrvatska","https://www.google.com/maps?q=45.0401465,14.6200701"
+4,frame_0210.jpg,45.252316,13.6211246,0.19844827647353003,"D75, Vranići, Poreč, Grad Poreč, Istarska županija, 52240, Hrvatska","https://www.google.com/maps?q=45.2523160,13.6211246"
+5,frame_0601.jpg,45.4956757,16.3685236,0.2018064260482788,"Aleja Vlade Janjića Cape, Gradska četvrt Zeleni brijeg, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44000, Hrvatska","https://www.google.com/maps?q=45.4956757,16.3685236"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0001.jpg,44.5418858,14.8981977,0.4599390854878811,"Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5418858,14.8981977"
+2,frame_1390.jpg,44.5420747,14.8987326,0.48455055193449914,"D106, Novalja, Grad Novalja, Ličko-senjska županija, 53291, Hrvatska","https://www.google.com/maps?q=44.5420747,14.8987326"
+3,frame_0562.jpg,45.0401465,14.6200701,0.5644101189198295,"D102, Kornić, Grad Krk, Primorsko-goranska županija, 51517, Hrvatska","https://www.google.com/maps?q=45.0401465,14.6200701"
+4,frame_0210.jpg,45.252316,13.6211246,0.6299973021555462,"D75, Vranići, Poreč, Grad Poreč, Istarska županija, 52240, Hrvatska","https://www.google.com/maps?q=45.2523160,13.6211246"
+5,frame_0601.jpg,45.4956757,16.3685236,0.6353053688591042,"Aleja Vlade Janjića Cape, Gradska četvrt Zeleni brijeg, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44000, Hrvatska","https://www.google.com/maps?q=45.4956757,16.3685236"

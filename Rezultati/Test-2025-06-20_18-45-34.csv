@@ -1,0 +1,33 @@
+Izvorna slika: slavonski_brod.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0038.jpg,45.1626759,18.0024615,0.0827918102021088,"Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1626759,18.0024615"
+2,frame_0072.jpg,45.1620777,18.0102324,0.09388983249663663,"Ulica Petra Svačića, Slavonija I, Mjesni odbor Plavo polje, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1620777,18.0102324"
+3,frame_0276.jpg,45.1780831,18.0412574,0.09397620522833938,"Sjeverna vezna cesta, Šestinac, Mjesni odbor dr. Ante Starčević, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35107, Hrvatska","https://www.google.com/maps?q=45.1780831,18.0412574"
+4,frame_0279.jpg,45.1627942,18.0006823,0.09659407406396292,"Autowill, 16, Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1627942,18.0006823"
+5,frame_0062.jpg,45.1615671,17.9982474,0.09697473627178133,"Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1615671,17.9982474"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0038.jpg,45.1626759,18.0024615,0.4069195145546333,"Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1626759,18.0024615"
+2,frame_0072.jpg,45.1620777,18.0102324,0.43333537333570704,"Ulica Petra Svačića, Slavonija I, Mjesni odbor Plavo polje, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1620777,18.0102324"
+3,frame_0276.jpg,45.1780831,18.0412574,0.43353480720256776,"Sjeverna vezna cesta, Šestinac, Mjesni odbor dr. Ante Starčević, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35107, Hrvatska","https://www.google.com/maps?q=45.1780831,18.0412574"
+4,frame_0279.jpg,45.1627942,18.0006823,0.43953198890881584,"Autowill, 16, Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1627942,18.0006823"
+5,frame_0062.jpg,45.1615671,17.9982474,0.44039720639651597,"Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1615671,17.9982474"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0039.jpg,45.1626576,18.0026897,0.15214228630065918,"Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1626576,18.0026897"
+2,frame_0038.jpg,45.1626759,18.0024615,0.18810529637964202,"Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1626759,18.0024615"
+3,frame_0155.jpg,45.1599076,18.027687,0.19419790471779586,"Osnovna škola Milan Amruš, 100, Ulica Nikole Zrinskog, Naselje Marsonia, Mjesni odbor Lutvinka, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35103, Hrvatska","https://www.google.com/maps?q=45.1599076,18.0276870"
+4,frame_0056.jpg,46.0220194,15.9070747,0.1986636519432068,"Prilaz dr. Franje Tuđmana, Zabok, Grad Zabok, Krapinsko-zagorska županija, 49210, Hrvatska","https://www.google.com/maps?q=46.0220194,15.9070747"
+5,frame_0230.jpg,45.3422705,17.7002411,0.20169038782658366,"Osječka ulica, Glis, Mjesni odbor Ratarnica, Požega, Grad Požega, Požeško-slavonska županija, 34000, Hrvatska","https://www.google.com/maps?q=45.3422705,17.7002411"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0039.jpg,45.1626576,18.0026897,0.5516200611023931,"Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1626576,18.0026897"
+2,frame_0038.jpg,45.1626759,18.0024615,0.6133600658140276,"Ulica Josipa Rimca, Mjesni odbor Jelas, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35000, Hrvatska","https://www.google.com/maps?q=45.1626759,18.0024615"
+3,frame_0155.jpg,45.1599076,18.027687,0.6232140774127302,"Osnovna škola Milan Amruš, 100, Ulica Nikole Zrinskog, Naselje Marsonia, Mjesni odbor Lutvinka, Slavonski Brod, Grad Slavonski Brod, Brodsko-posavska županija, 35103, Hrvatska","https://www.google.com/maps?q=45.1599076,18.0276870"
+4,frame_0056.jpg,46.0220194,15.9070747,0.6303389442808718,"Prilaz dr. Franje Tuđmana, Zabok, Grad Zabok, Krapinsko-zagorska županija, 49210, Hrvatska","https://www.google.com/maps?q=46.0220194,15.9070747"
+5,frame_0230.jpg,45.3422705,17.7002411,0.6351225333748699,"Osječka ulica, Glis, Mjesni odbor Ratarnica, Požega, Grad Požega, Požeško-slavonska županija, 34000, Hrvatska","https://www.google.com/maps?q=45.3422705,17.7002411"

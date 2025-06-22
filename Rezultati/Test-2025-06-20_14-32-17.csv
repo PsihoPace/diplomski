@@ -1,0 +1,33 @@
+Izvorna slika: test_gospic.png
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0969.jpg,45.5855112,16.9385757,0.06179928411249447,"Ulica Matije Gupca, Gajine, Selište, Garešnički Brestovac, Grad Garešnica, Bjelovarsko-bilogorska županija, 43280, Hrvatska","https://www.google.com/maps?q=45.5855112,16.9385757"
+2,frame_0695.jpg,45.4785597,16.3900559,0.06592231203051002,"5, Galdovačka ulica, Gradska četvrt Galdovo, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44104, Hrvatska","https://www.google.com/maps?q=45.4785597,16.3900559"
+3,frame_1315.jpg,45.496303,16.3744128,0.06617217861579616,"Ulica Ferde Hefelea, Jodno, Gradska četvrt Zeleni brijeg, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44000, Hrvatska","https://www.google.com/maps?q=45.4963030,16.3744128"
+4,frame_1272.jpg,45.8743582,16.8147407,0.06737923622131348,"Velike Sredice, Kudumija d.o.o., Velike Sredice, Grad Bjelovar, Bjelovarsko-bilogorska županija, 43251, Hrvatska","https://www.google.com/maps?q=45.8743582,16.8147407"
+5,frame_1362.jpg,46.0393812,16.5379054,0.06813308799663409,"Kalnička, Mladine, Gornji grad, Križevci, Grad Križevci, Koprivničko-križevačka županija, 48260, Hrvatska","https://www.google.com/maps?q=46.0393812,16.5379054"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0969.jpg,45.5855112,16.9385757,0.35156563651487144,"Ulica Matije Gupca, Gajine, Selište, Garešnički Brestovac, Grad Garešnica, Bjelovarsko-bilogorska županija, 43280, Hrvatska","https://www.google.com/maps?q=45.5855112,16.9385757"
+2,frame_0695.jpg,45.4785597,16.3900559,0.36310408999829846,"5, Galdovačka ulica, Gradska četvrt Galdovo, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44104, Hrvatska","https://www.google.com/maps?q=45.4785597,16.3900559"
+3,frame_1315.jpg,45.496303,16.3744128,0.36379185550469106,"Ulica Ferde Hefelea, Jodno, Gradska četvrt Zeleni brijeg, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44000, Hrvatska","https://www.google.com/maps?q=45.4963030,16.3744128"
+4,frame_1272.jpg,45.8743582,16.8147407,0.3670947383829315,"Velike Sredice, Kudumija d.o.o., Velike Sredice, Grad Bjelovar, Bjelovarsko-bilogorska županija, 43251, Hrvatska","https://www.google.com/maps?q=45.8743582,16.8147407"
+5,frame_1362.jpg,46.0393812,16.5379054,0.3691424617015215,"Kalnička, Mladine, Gornji grad, Križevci, Grad Križevci, Koprivničko-križevačka županija, 48260, Hrvatska","https://www.google.com/maps?q=46.0393812,16.5379054"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0122.jpg,44.8678086,15.2496196,0.12440227720723729,"INA Otočac, 111, Ulica kralja Zvonimira, Lidl Otočac, Otočac, Grad Otočac, Ličko-senjska županija, 53220, Hrvatska","https://www.google.com/maps?q=44.8678086,15.2496196"
+2,frame_0072.jpg,46.3772252,16.3905199,0.12860941886901855,"METTS, 33, Čakovečka ulica, Nedelišće, Općina Nedelišće, Međimurska županija, 40305, Hrvatska","https://www.google.com/maps?q=46.3772252,16.3905199"
+3,frame_0152.jpg,45.8840052,16.8655246,0.13311045568522917,"Daruvarska ulica, Brdo, Ždralovi, Grad Bjelovar, Bjelovarsko-bilogorska županija, Hrvatska","https://www.google.com/maps?q=45.8840052,16.8655246"
+4,frame_0268.jpg,45.5069442,16.3100623,0.13738888502120972,"187, Sisačka ulica, Sela, Grad Sisak, Sisačko-moslavačka županija, Hrvatska","https://www.google.com/maps?q=45.5069442,16.3100623"
+5,frame_0298.jpg,45.8846553,16.1799133,0.13769352436065674,"Varaždinska ulica, Mjesni odbor Belovar, Gradska četvrt Sesvete, Belovar, Grad Zagreb, 10363, Hrvatska","https://www.google.com/maps?q=45.8846553,16.1799133"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0122.jpg,44.8678086,15.2496196,0.49880330106882603,"INA Otočac, 111, Ulica kralja Zvonimira, Lidl Otočac, Otočac, Grad Otočac, Ličko-senjska županija, 53220, Hrvatska","https://www.google.com/maps?q=44.8678086,15.2496196"
+2,frame_0072.jpg,46.3772252,16.3905199,0.507167641467761,"METTS, 33, Čakovečka ulica, Nedelišće, Općina Nedelišće, Međimurska županija, 40305, Hrvatska","https://www.google.com/maps?q=46.3772252,16.3905199"
+3,frame_0152.jpg,45.8840052,16.8655246,0.5159659558864514,"Daruvarska ulica, Brdo, Ždralovi, Grad Bjelovar, Bjelovarsko-bilogorska županija, Hrvatska","https://www.google.com/maps?q=45.8840052,16.8655246"
+4,frame_0268.jpg,45.5069442,16.3100623,0.5241925217367583,"187, Sisačka ulica, Sela, Grad Sisak, Sisačko-moslavačka županija, Hrvatska","https://www.google.com/maps?q=45.5069442,16.3100623"
+5,frame_0298.jpg,45.8846553,16.1799133,0.5247731604297033,"Varaždinska ulica, Mjesni odbor Belovar, Gradska četvrt Sesvete, Belovar, Grad Zagreb, 10363, Hrvatska","https://www.google.com/maps?q=45.8846553,16.1799133"

@@ -1,0 +1,33 @@
+Izvorna slika: baza_8.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0103.jpg,45.2601111,18.9873027,0.0,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2601111,18.9873027"
+2,frame_0101.jpg,45.2596034,18.9873566,0.03475368022918701,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2596034,18.9873566"
+3,frame_0102.jpg,45.2598639,18.9873288,0.03522193431854248,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2598639,18.9873288"
+4,frame_0105.jpg,45.2606062,18.9872485,0.037856934198322145,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2606062,18.9872485"
+5,frame_0095.jpg,45.2581179,18.9875169,0.04246410854053784,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2581179,18.9875169"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0103.jpg,45.2601111,18.9873027,0.0,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2601111,18.9873027"
+2,frame_0101.jpg,45.2596034,18.9873566,0.2636428110564135,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2596034,18.9873566"
+3,frame_0102.jpg,45.2598639,18.9873288,0.26541303143090333,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2598639,18.9873288"
+4,frame_0105.jpg,45.2606062,18.9872485,0.27516113350567517,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2606062,18.9872485"
+5,frame_0095.jpg,45.2581179,18.9875169,0.2914246622358991,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2581179,18.9875169"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0103.jpg,45.2601111,18.9873027,0.0,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2601111,18.9873027"
+2,frame_0102.jpg,45.2598639,18.9873288,0.0823436330352032,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2598639,18.9873288"
+3,frame_0107.jpg,45.2610985,18.9871942,0.09489112526827148,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2610985,18.9871942"
+4,frame_0371.jpg,45.3182297,19.0024212,0.0963820161591743,"D57, Mjesni odbor Sajmište, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32239, Hrvatska","https://www.google.com/maps?q=45.3182297,19.0024212"
+5,frame_0391.jpg,45.3231563,19.0025701,0.097094562736312,"D57, Mjesni odbor Sajmište, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32239, Hrvatska","https://www.google.com/maps?q=45.3231563,19.0025701"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0103.jpg,45.2601111,18.9873027,0.0,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2601111,18.9873027"
+2,frame_0102.jpg,45.2598639,18.9873288,0.4058167641734546,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2598639,18.9873288"
+3,frame_0107.jpg,45.2610985,18.9871942,0.4356402651986889,"D57, Negoslavci, Svinjarevci, Općina Bogdanovci, Vukovarsko-srijemska županija, 32243, Hrvatska","https://www.google.com/maps?q=45.2610985,18.9871942"
+4,frame_0371.jpg,45.3182297,19.0024212,0.43904888634261885,"D57, Mjesni odbor Sajmište, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32239, Hrvatska","https://www.google.com/maps?q=45.3182297,19.0024212"
+5,frame_0391.jpg,45.3231563,19.0025701,0.44066885736678857,"D57, Mjesni odbor Sajmište, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32239, Hrvatska","https://www.google.com/maps?q=45.3231563,19.0025701"

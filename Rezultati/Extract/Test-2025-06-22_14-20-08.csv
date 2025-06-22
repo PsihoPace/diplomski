@@ -1,0 +1,33 @@
+Izvorna slika: put_plitvica.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0084.jpg,44.9643164,15.0747538,0.03640309301642375,"D23, Žuta Lokva, Općina Brinje, Ličko-senjska županija, Hrvatska","https://www.google.com/maps?q=44.9643164,15.0747538"
+2,frame_0463.jpg,45.8534853,16.9296129,0.047726932032519764,"Patkovac, Velika Prespa, Patkovac, Grad Bjelovar, Bjelovarsko-bilogorska županija, Hrvatska","https://www.google.com/maps?q=45.8534853,16.9296129"
+3,frame_0677.jpg,45.2087838,14.0293579,0.04949277934388818,"D64, Relji, Pićan, Općina Pićan, Općina Gračišće, Istarska županija, 52403, Hrvatska","https://www.google.com/maps?q=45.2087838,14.0293579"
+4,frame_1485.jpg,44.3746778,15.6605267,0.0507402480531034,"D50, Jurjevići, Sveti Rok, Općina Lovinac, Ličko-senjska županija, 53244, Hrvatska","https://www.google.com/maps?q=44.3746778,15.6605267"
+5,frame_1257.jpg,43.6637406,16.0462871,0.05186003755688717,"D58, Plenčići (Liska), Vrpolje, Grad Šibenik, Šibensko-kninska županija, Hrvatska","https://www.google.com/maps?q=43.6637406,16.0462871"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0084.jpg,44.9643164,15.0747538,0.2698263819218124,"D23, Žuta Lokva, Općina Brinje, Ličko-senjska županija, Hrvatska","https://www.google.com/maps?q=44.9643164,15.0747538"
+2,frame_0463.jpg,45.8534853,16.9296129,0.3089560422192897,"Patkovac, Velika Prespa, Patkovac, Grad Bjelovar, Bjelovarsko-bilogorska županija, Hrvatska","https://www.google.com/maps?q=45.8534853,16.9296129"
+3,frame_0677.jpg,45.2087838,14.0293579,0.31461950603624567,"D64, Relji, Pićan, Općina Pićan, Općina Gračišće, Istarska županija, 52403, Hrvatska","https://www.google.com/maps?q=45.2087838,14.0293579"
+4,frame_1485.jpg,44.3746778,15.6605267,0.3185600981963266,"D50, Jurjevići, Sveti Rok, Općina Lovinac, Ličko-senjska županija, 53244, Hrvatska","https://www.google.com/maps?q=44.3746778,15.6605267"
+5,frame_1257.jpg,43.6637406,16.0462871,0.32205600278768226,"D58, Plenčići (Liska), Vrpolje, Grad Šibenik, Šibensko-kninska županija, Hrvatska","https://www.google.com/maps?q=43.6637406,16.0462871"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0084.jpg,44.9643164,15.0747538,0.0737373276792348,"D23, Žuta Lokva, Općina Brinje, Ličko-senjska županija, Hrvatska","https://www.google.com/maps?q=44.9643164,15.0747538"
+2,frame_0397.jpg,45.9541966,16.8914788,0.08277738094329179,"Kupinovac, CESTE D.O.O, BJELOVAR, Kupinovac, Grad Bjelovar, Bjelovarsko-bilogorska županija, 43000, Hrvatska","https://www.google.com/maps?q=45.9541966,16.8914788"
+3,frame_0587.jpg,45.6278688,18.1656151,0.0833773389497996,"Ulica braće Radića, Malinovac, Općina Magadenovac, Osječko-baranjska županija, 31542, Hrvatska","https://www.google.com/maps?q=45.6278688,18.1656151"
+4,frame_0524.jpg,45.7038327,18.2979788,0.08415794372557939,"Ulica Nikole Tesle, Črnkovci, Općina Marijanci, Osječko-baranjska županija, 31553, Hrvatska","https://www.google.com/maps?q=45.7038327,18.2979788"
+5,frame_0432.jpg,45.9787458,15.8465244,0.08455872535704911,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9787458,15.8465244"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0084.jpg,44.9643164,15.0747538,0.3840240458022961,"D23, Žuta Lokva, Općina Brinje, Ličko-senjska županija, Hrvatska","https://www.google.com/maps?q=44.9643164,15.0747538"
+2,frame_0397.jpg,45.9541966,16.8914788,0.4068845048722988,"Kupinovac, CESTE D.O.O, BJELOVAR, Kupinovac, Grad Bjelovar, Bjelovarsko-bilogorska županija, 43000, Hrvatska","https://www.google.com/maps?q=45.9541966,16.8914788"
+3,frame_0587.jpg,45.6278688,18.1656151,0.4083561040244821,"Ulica braće Radića, Malinovac, Općina Magadenovac, Osječko-baranjska županija, 31542, Hrvatska","https://www.google.com/maps?q=45.6278688,18.1656151"
+4,frame_0524.jpg,45.7038327,18.2979788,0.41026328370569287,"Ulica Nikole Tesle, Črnkovci, Općina Marijanci, Osječko-baranjska županija, 31553, Hrvatska","https://www.google.com/maps?q=45.7038327,18.2979788"
+5,frame_0432.jpg,45.9787458,15.8465244,0.41123908474823023,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9787458,15.8465244"

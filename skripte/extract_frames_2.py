@@ -8,9 +8,9 @@ from pathlib import Path
 
 # Putanje
 BASE_DIR = Path("D:/Diplomski")
-VIDEO_DIR = BASE_DIR / "raw/videos"
+VIDEO_DIR = BASE_DIR / "raw/videos_1"
 JSON_DIR = BASE_DIR / "raw/json"
-OUTPUT_DIR = BASE_DIR / "data"
+OUTPUT_DIR = BASE_DIR / "data/test"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Funkcija za izračun udaljenosti u metrima između dvije WGS84 točke
@@ -42,7 +42,7 @@ def process_video(video_path, json_path, output_subdir):
 
             if previous_coordinates:
                 distance = calculate_distance(previous_coordinates, (lat, lon))
-                if distance > 25:  # VRIJEDNOST REZANJA
+                if distance > 30:  # VRIJEDNOST REZANJA
                     frame_position = int(current_time * frame_rate)
                     cap.set(cv2.CAP_PROP_POS_FRAMES, frame_position)
                     ret, frame = cap.read()

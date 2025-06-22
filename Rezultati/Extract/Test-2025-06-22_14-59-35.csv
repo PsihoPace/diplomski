@@ -1,0 +1,33 @@
+Izvorna slika: extract_4.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0080.jpg,45.7809718,18.7742015,0.03283477025239123,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7809718,18.7742015"
+2,frame_0513.jpg,45.6993751,18.1970855,0.08504444360733032,"crkva svete Marije Magdalene, 11, Ulica Eugena Kraja, Miholjački Poreč, Grad Donji Miholjac, Osječko-baranjska županija, 31543, Hrvatska","https://www.google.com/maps?q=45.6993751,18.1970855"
+3,frame_0081.jpg,45.7810624,18.7744147,0.08549165725708008,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7810624,18.7744147"
+4,frame_0089.jpg,45.7820506,18.7759728,0.08636099100112915,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7820506,18.7759728"
+5,frame_0206.jpg,45.7952069,18.7996895,0.08741939067840576,"Ulica maršala Tita, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31307, Hrvatska","https://www.google.com/maps?q=45.7952069,18.7996895"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0080.jpg,45.7809718,18.7742015,0.2562610007460154,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7809718,18.7742015"
+2,frame_0513.jpg,45.6993751,18.1970855,0.41241826779377255,"crkva svete Marije Magdalene, 11, Ulica Eugena Kraja, Miholjački Poreč, Grad Donji Miholjac, Osječko-baranjska županija, 31543, Hrvatska","https://www.google.com/maps?q=45.6993751,18.1970855"
+3,frame_0081.jpg,45.7810624,18.7744147,0.41350119710631333,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7810624,18.7744147"
+4,frame_0089.jpg,45.7820506,18.7759728,0.41559836008268786,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7820506,18.7759728"
+5,frame_0206.jpg,45.7952069,18.7996895,0.4181370975472035,"Ulica maršala Tita, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31307, Hrvatska","https://www.google.com/maps?q=45.7952069,18.7996895"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0080.jpg,45.7809718,18.7742015,0.08746272846834069,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7809718,18.7742015"
+2,frame_0198.jpg,45.7942456,18.7980857,0.27265846729278564,"Ulica maršala Tita, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31307, Hrvatska","https://www.google.com/maps?q=45.7942456,18.7980857"
+3,frame_0566.jpg,45.7529019,18.7388328,0.27352281054990224,"Glavna ulica, Kneževi Vinogradi, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31309, Hrvatska","https://www.google.com/maps?q=45.7529019,18.7388328"
+4,frame_0243.jpg,45.8001821,18.806691,0.27354030170796373,"DVD Zmajevac, 198, Ulica maršala Tita, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31307, Hrvatska","https://www.google.com/maps?q=45.8001821,18.8066910"
+5,frame_0075.jpg,45.7802683,18.7732765,0.27972297193270956,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7802683,18.7732765"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0080.jpg,45.7809718,18.7742015,0.4182410200093282,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7809718,18.7742015"
+2,frame_0198.jpg,45.7942456,18.7980857,0.7384557366429801,"Ulica maršala Tita, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31307, Hrvatska","https://www.google.com/maps?q=45.7942456,18.7980857"
+3,frame_0566.jpg,45.7529019,18.7388328,0.7396253027671155,"Glavna ulica, Kneževi Vinogradi, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31309, Hrvatska","https://www.google.com/maps?q=45.7529019,18.7388328"
+4,frame_0243.jpg,45.8001821,18.806691,0.7396489951486955,"DVD Zmajevac, 198, Ulica maršala Tita, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31307, Hrvatska","https://www.google.com/maps?q=45.8001821,18.8066910"
+5,frame_0075.jpg,45.7802683,18.7732765,0.7479612535523771,"Ulica maršala Tita, Suza, Općina Kneževi Vinogradi, Osječko-baranjska županija, 31308, Hrvatska","https://www.google.com/maps?q=45.7802683,18.7732765"

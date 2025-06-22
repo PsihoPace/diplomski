@@ -1,0 +1,33 @@
+Izvorna slika: baza_6.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0166.jpg,45.6772121,18.3866064,0.0,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6772121,18.3866064"
+2,frame_0165.jpg,45.677284,18.3863863,0.03782713187771081,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6772840,18.3863863"
+3,frame_0164.jpg,45.6773581,18.3861702,0.06603035527558154,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6773581,18.3861702"
+4,frame_0370.jpg,45.7110559,18.2926497,0.06822800636291504,"Ulica kardinala Alojzija Stepinca, Črnkovci, Općina Marijanci, Osječko-baranjska županija, 31553, Hrvatska","https://www.google.com/maps?q=45.7110559,18.2926497"
+5,frame_0167.jpg,45.6771409,18.3868281,0.07282251119613647,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6771409,18.3868281"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0166.jpg,45.6772121,18.3866064,0.0,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6772121,18.3866064"
+2,frame_0165.jpg,45.677284,18.3863863,0.2750533588617981,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6772840,18.3863863"
+3,frame_0164.jpg,45.6773581,18.3861702,0.3634015981206043,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6773581,18.3861702"
+4,frame_0370.jpg,45.7110559,18.2926497,0.36939981232004815,"Ulica kardinala Alojzija Stepinca, Črnkovci, Općina Marijanci, Osječko-baranjska županija, 31553, Hrvatska","https://www.google.com/maps?q=45.7110559,18.2926497"
+5,frame_0167.jpg,45.6771409,18.3868281,0.38163484707600237,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6771409,18.3868281"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0166.jpg,45.6772121,18.3866064,0.0,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6772121,18.3866064"
+2,frame_0165.jpg,45.677284,18.3863863,0.07495612352824788,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6772840,18.3863863"
+3,frame_0039.jpg,45.7629131,18.623691,0.12866246700286244,"Osječka ulica, Beli Manastir, Grad Beli Manastir, Osječko-baranjska županija, 31300, Hrvatska","https://www.google.com/maps?q=45.7629131,18.6236910"
+4,frame_0167.jpg,45.6771409,18.3868281,0.1295638757684141,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6771409,18.3868281"
+5,frame_0245.jpg,45.7671484,18.1691024,0.1333143035581984,"Postrojenje za pročišćavanje otpadnih voda, 15c, Gajeva ulica, Donji Miholjac, Grad Donji Miholjac, Osječko-baranjska županija, 31540, Hrvatska","https://www.google.com/maps?q=45.7671484,18.1691024"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0166.jpg,45.6772121,18.3866064,0.0,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6772121,18.3866064"
+2,frame_0165.jpg,45.677284,18.3863863,0.38718505643084306,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6772840,18.3863863"
+3,frame_0039.jpg,45.7629131,18.623691,0.5072722275264748,"Osječka ulica, Beli Manastir, Grad Beli Manastir, Osječko-baranjska županija, 31300, Hrvatska","https://www.google.com/maps?q=45.7629131,18.6236910"
+4,frame_0167.jpg,45.6771409,18.3868281,0.5090459661919133,"D34, Valpovo, Grad Valpovo, Osječko-baranjska županija, 31551, Hrvatska","https://www.google.com/maps?q=45.6771409,18.3868281"
+5,frame_0245.jpg,45.7671484,18.1691024,0.5163607117027291,"Postrojenje za pročišćavanje otpadnih voda, 15c, Gajeva ulica, Donji Miholjac, Grad Donji Miholjac, Osječko-baranjska županija, 31540, Hrvatska","https://www.google.com/maps?q=45.7671484,18.1691024"

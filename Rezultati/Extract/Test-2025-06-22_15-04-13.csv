@@ -1,0 +1,33 @@
+Izvorna slika: extract_7.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0056.jpg,45.3391328,17.5384255,0.05934107303619385,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3391328,17.5384255"
+2,frame_0153.jpg,45.3642284,17.9794441,0.06959626286018639,"D53, Milanlug, Općina Čaglin, Požeško-slavonska županija, 34350, Hrvatska","https://www.google.com/maps?q=45.3642284,17.9794441"
+3,frame_0055.jpg,45.3390815,17.5386464,0.07733809947967529,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3390815,17.5386464"
+4,frame_0247.jpg,45.2490867,17.756648,0.08059352155962296,"D49, Poloje, Grad Pleternica, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.2490867,17.7566480"
+5,frame_0081.jpg,45.3391669,17.5326619,0.0826541830691192,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3391669,17.5326619"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0056.jpg,45.3391328,17.5384255,0.3445028167894586,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3391328,17.5384255"
+2,frame_0153.jpg,45.3642284,17.9794441,0.3730853395454249,"D53, Milanlug, Općina Čaglin, Požeško-slavonska županija, 34350, Hrvatska","https://www.google.com/maps?q=45.3642284,17.9794441"
+3,frame_0055.jpg,45.3390815,17.5386464,0.39328887519825145,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3390815,17.5386464"
+4,frame_0247.jpg,45.2490867,17.756648,0.40148096258699295,"D49, Poloje, Grad Pleternica, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.2490867,17.7566480"
+5,frame_0081.jpg,45.3391669,17.5326619,0.4065813034130999,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3391669,17.5326619"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0056.jpg,45.3391328,17.5384255,0.07690286177975603,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3391328,17.5384255"
+2,frame_0055.jpg,45.3390815,17.5386464,0.1075366735458374,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3390815,17.5386464"
+3,frame_0202.jpg,45.1006017,18.5332543,0.12012369156620895,"Savska ulica, Babina Greda, Općina Babina Greda, Vukovarsko-srijemska županija, 32276, Hrvatska","https://www.google.com/maps?q=45.1006017,18.5332543"
+4,frame_0039.jpg,45.2779127,17.2069968,0.12332243462338499,"D5, Cage, Općina Okućani, Brodsko-posavska županija, 35430, Hrvatska","https://www.google.com/maps?q=45.2779127,17.2069968"
+5,frame_0368.jpg,45.2972764,17.4246984,0.12468904256820679,"D51, Baćin Dol, Općina Cernik, Brodsko-posavska županija, 35403, Hrvatska","https://www.google.com/maps?q=45.2972764,17.4246984"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0056.jpg,45.3391328,17.5384255,0.3921805878900194,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3391328,17.5384255"
+2,frame_0055.jpg,45.3390815,17.5386464,0.4637601387581347,"D51, Opršinac, Općina Brestovac, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.3390815,17.5386464"
+3,frame_0202.jpg,45.1006017,18.5332543,0.4901506268826579,"Savska ulica, Babina Greda, Općina Babina Greda, Vukovarsko-srijemska županija, 32276, Hrvatska","https://www.google.com/maps?q=45.1006017,18.5332543"
+4,frame_0039.jpg,45.2779127,17.2069968,0.49663373139754613,"D5, Cage, Općina Okućani, Brodsko-posavska županija, 35430, Hrvatska","https://www.google.com/maps?q=45.2779127,17.2069968"
+5,frame_0368.jpg,45.2972764,17.4246984,0.4993778023145822,"D51, Baćin Dol, Općina Cernik, Brodsko-posavska županija, 35403, Hrvatska","https://www.google.com/maps?q=45.2972764,17.4246984"

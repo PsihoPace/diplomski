@@ -1,0 +1,33 @@
+Izvorna slika: baza_1.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0013.jpg,45.2808799,14.2721451,0.0,"Boutique Hotel Acacia, 128/1, Šetalište maršala Tita, Punta, Kraj, Lovran, Općina Lovran, Primorsko-goranska županija, 51415, Hrvatska","https://www.google.com/maps?q=45.2808799,14.2721451"
+2,frame_0019.jpg,45.2821369,14.2725862,0.07083368301391602,"Šetalište maršala Tita, Punta, Kraj, Lovran, Općina Lovran, Primorsko-goranska županija, 51415, Hrvatska","https://www.google.com/maps?q=45.2821369,14.2725862"
+3,frame_0121.jpg,45.3047434,18.4119643,0.07136869430541992,"Ulica Petra Preradovića, Zvečaj, Mjesni odbor Gabro Hes, Đakovo, Grad Đakovo, Osječko-baranjska županija, 31400, Hrvatska","https://www.google.com/maps?q=45.3047434,18.4119643"
+4,frame_0130.jpg,45.0599743,14.042865,0.07328325073222652,"Raša, Most-Raša, Općina Raša, Istarska županija, 52207, Hrvatska","https://www.google.com/maps?q=45.0599743,14.0428650"
+5,frame_0005.jpg,44.2850313,15.4540361,0.07356112756960664,"105, Ulica dr. Franje Tuđmana, Sikići, Starigrad, Općina Starigrad, Zadarska županija, 23244, Hrvatska","https://www.google.com/maps?q=44.2850313,15.4540361"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0013.jpg,45.2808799,14.2721451,0.0,"Boutique Hotel Acacia, 128/1, Šetalište maršala Tita, Punta, Kraj, Lovran, Općina Lovran, Primorsko-goranska županija, 51415, Hrvatska","https://www.google.com/maps?q=45.2808799,14.2721451"
+2,frame_0019.jpg,45.2821369,14.2725862,0.3763873741702811,"Šetalište maršala Tita, Punta, Kraj, Lovran, Općina Lovran, Primorsko-goranska županija, 51415, Hrvatska","https://www.google.com/maps?q=45.2821369,14.2725862"
+3,frame_0121.jpg,45.3047434,18.4119643,0.3778058423322608,"Ulica Petra Preradovića, Zvečaj, Mjesni odbor Gabro Hes, Đakovo, Grad Đakovo, Osječko-baranjska županija, 31400, Hrvatska","https://www.google.com/maps?q=45.3047434,18.4119643"
+4,frame_0130.jpg,45.0599743,14.042865,0.3828401360948787,"Raša, Most-Raša, Općina Raša, Istarska županija, 52207, Hrvatska","https://www.google.com/maps?q=45.0599743,14.0428650"
+5,frame_0005.jpg,44.2850313,15.4540361,0.38356514336537756,"105, Ulica dr. Franje Tuđmana, Sikići, Starigrad, Općina Starigrad, Zadarska županija, 23244, Hrvatska","https://www.google.com/maps?q=44.2850313,15.4540361"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0013.jpg,45.2808799,14.2721451,0.0,"Boutique Hotel Acacia, 128/1, Šetalište maršala Tita, Punta, Kraj, Lovran, Općina Lovran, Primorsko-goranska županija, 51415, Hrvatska","https://www.google.com/maps?q=45.2808799,14.2721451"
+2,frame_0065.jpg,45.2511052,14.5984131,0.1543259116605452,"Jadranska magistrala, Bobuši, Šmrika, Grad Kraljevica, Primorsko-goranska županija, 51263, Hrvatska","https://www.google.com/maps?q=45.2511052,14.5984131"
+3,frame_0750.jpg,45.3060101,14.4980145,0.1609768367395885,"Stadion Žuknica, 7, Jadranska magistrala, Žuknica, Kostrena, Općina Kostrena, Primorsko-goranska županija, 51221, Hrvatska","https://www.google.com/maps?q=45.3060101,14.4980145"
+4,frame_0224.jpg,45.1272728,14.1225825,0.16586084162359338,"D66, Sušalj, Štrmac, Općina Sveta Nedelja, Istarska županija, 52231, Hrvatska","https://www.google.com/maps?q=45.1272728,14.1225825"
+5,frame_0775.jpg,45.6206372,16.1349903,0.16871778685311523,"Zagrebačka ulica, Ogulinec, Grad Velika Gorica, Zagrebačka županija, 10417, Hrvatska","https://www.google.com/maps?q=45.6206372,16.1349903"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0013.jpg,45.2808799,14.2721451,0.0,"Boutique Hotel Acacia, 128/1, Šetalište maršala Tita, Punta, Kraj, Lovran, Općina Lovran, Primorsko-goranska županija, 51415, Hrvatska","https://www.google.com/maps?q=45.2808799,14.2721451"
+2,frame_0065.jpg,45.2511052,14.5984131,0.5555644289606144,"Jadranska magistrala, Bobuši, Šmrika, Grad Kraljevica, Primorsko-goranska županija, 51263, Hrvatska","https://www.google.com/maps?q=45.2511052,14.5984131"
+3,frame_0750.jpg,45.3060101,14.4980145,0.5674097051501104,"Stadion Žuknica, 7, Jadranska magistrala, Žuknica, Kostrena, Općina Kostrena, Primorsko-goranska županija, 51221, Hrvatska","https://www.google.com/maps?q=45.3060101,14.4980145"
+4,frame_0224.jpg,45.1272728,14.1225825,0.5759528050740913,"D66, Sušalj, Štrmac, Općina Sveta Nedelja, Istarska županija, 52231, Hrvatska","https://www.google.com/maps?q=45.1272728,14.1225825"
+5,frame_0775.jpg,45.6206372,16.1349903,0.5808921266004812,"Zagrebačka ulica, Ogulinec, Grad Velika Gorica, Zagrebačka županija, 10417, Hrvatska","https://www.google.com/maps?q=45.6206372,16.1349903"

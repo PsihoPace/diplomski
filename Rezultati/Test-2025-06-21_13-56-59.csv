@@ -1,0 +1,33 @@
+Izvorna slika: test_otocac2.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0399.jpg,44.8912469,13.8838939,0.09381118696365276,"D66, Pula, Grad Pula, Istarska županija, 52104, Hrvatska","https://www.google.com/maps?q=44.8912469,13.8838939"
+2,frame_0397.jpg,44.8913338,13.8843432,0.10032057762145996,"D66, Pula, Grad Pula, Istarska županija, 52104, Hrvatska","https://www.google.com/maps?q=44.8913338,13.8843432"
+3,frame_1197.jpg,43.6056896,15.9215266,0.10252622075456996,"D8, Primošten, Općina Primošten, Šibensko-kninska županija, 22202, Hrvatska","https://www.google.com/maps?q=43.6056896,15.9215266"
+4,frame_0438.jpg,46.2580739,16.5983621,0.1027979850769043,"D2, Ludbreg, Grad Ludbreg, Varaždinska županija, 44230, Hrvatska","https://www.google.com/maps?q=46.2580739,16.5983621"
+5,frame_1554.jpg,43.5997683,15.9238769,0.10443350983957933,"D8, Primošten, Općina Primošten, Šibensko-kninska županija, 22202, Hrvatska","https://www.google.com/maps?q=43.5997683,15.9238769"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0399.jpg,44.8912469,13.8838939,0.4331538744242705,"D66, Pula, Grad Pula, Istarska županija, 52104, Hrvatska","https://www.google.com/maps?q=44.8912469,13.8838939"
+2,frame_0397.jpg,44.8913338,13.8843432,0.44792978873733674,"D66, Pula, Grad Pula, Istarska županija, 52104, Hrvatska","https://www.google.com/maps?q=44.8913338,13.8843432"
+3,frame_1197.jpg,43.6056896,15.9215266,0.4528273887634874,"D8, Primošten, Općina Primošten, Šibensko-kninska županija, 22202, Hrvatska","https://www.google.com/maps?q=43.6056896,15.9215266"
+4,frame_0438.jpg,46.2580739,16.5983621,0.45342686891088074,"D2, Ludbreg, Grad Ludbreg, Varaždinska županija, 44230, Hrvatska","https://www.google.com/maps?q=46.2580739,16.5983621"
+5,frame_1554.jpg,43.5997683,15.9238769,0.45701954492431207,"D8, Primošten, Općina Primošten, Šibensko-kninska županija, 22202, Hrvatska","https://www.google.com/maps?q=43.5997683,15.9238769"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0028.jpg,46.0887855,15.9045497,0.14036793353366306,"D677, Sveti Križ Začretje, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0887855,15.9045497"
+2,frame_0029.jpg,46.0889353,15.9043557,0.15197497606276866,"D677, Sveti Križ Začretje, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0889353,15.9043557"
+3,frame_0140.jpg,46.0760536,15.914003,0.1526467982109545,"D1, Gornja Ciglenica, Ciglenica Zagorska, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0760536,15.9140030"
+4,frame_0120.jpg,46.2108241,16.4394434,0.15610582566891906,"Stolarija i pilana Ratković, 2, Ludbreška ulica, Varaždinske Toplice, Grad Varaždinske Toplice, Varaždinska županija, 42223, Hrvatska","https://www.google.com/maps?q=46.2108241,16.4394434"
+5,frame_0139.jpg,46.0762436,15.9138521,0.15844951496566928,"D1, Gornja Ciglenica, Ciglenica Zagorska, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0762436,15.9138521"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0028.jpg,46.0887855,15.9045497,0.5298449504527085,"D677, Sveti Križ Začretje, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0887855,15.9045497"
+2,frame_0029.jpg,46.0889353,15.9043557,0.5513167247050317,"D677, Sveti Križ Začretje, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0889353,15.9043557"
+3,frame_0140.jpg,46.0760536,15.914003,0.5525339255122806,"D1, Gornja Ciglenica, Ciglenica Zagorska, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0760536,15.9140030"
+4,frame_0120.jpg,46.2108241,16.4394434,0.5587590913224981,"Stolarija i pilana Ratković, 2, Ludbreška ulica, Varaždinske Toplice, Grad Varaždinske Toplice, Varaždinska županija, 42223, Hrvatska","https://www.google.com/maps?q=46.2108241,16.4394434"
+5,frame_0139.jpg,46.0762436,15.9138521,0.5629378310243132,"D1, Gornja Ciglenica, Ciglenica Zagorska, Općina Sveti Križ Začretje, Krapinsko-zagorska županija, 49223, Hrvatska","https://www.google.com/maps?q=46.0762436,15.9138521"

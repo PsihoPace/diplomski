@@ -1,0 +1,33 @@
+Izvorna slika: mob_4.jpeg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0447.jpg,45.2875529,17.801649,0.09350907802581787,"Trg Zrinskog i Frankopana, Pleternica, Grad Pleternica, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.2875529,17.8016490"
+2,frame_0478.jpg,45.0005259,15.1337959,0.09986686706542969,"Osnovna škola Luke Perkovića, 44, Frankopanska, Zadgrad, Brinje, Općina Brinje, Ličko-senjska županija, 53260, Hrvatska","https://www.google.com/maps?q=45.0005259,15.1337959"
+3,frame_0344.jpg,45.4863939,15.5494811,0.1010200113362073,"Kintsugi, 16, Ulica Tadije Smičiklasa, Novi Centar, Banija, Karlovac, Grad Karlovac, Karlovačka županija, 47000, Hrvatska","https://www.google.com/maps?q=45.4863939,15.5494811"
+4,frame_0131.jpg,45.3398005,17.6790886,0.10130524635314941,"Ulica kralja Zvonimira, Mjesni odbor Orljava, Požega, Grad Požega, Požeško-slavonska županija, 34000, Hrvatska","https://www.google.com/maps?q=45.3398005,17.6790886"
+5,frame_0152.jpg,45.3397703,17.6795111,0.10164207825911353,"1, Ulica kralja Zvonimira, Mjesni odbor Orljava, Požega, Grad Požega, Požeško-slavonska županija, 34000, Hrvatska","https://www.google.com/maps?q=45.3397703,17.6795111"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0447.jpg,45.2875529,17.801649,0.43245614802475507,"Trg Zrinskog i Frankopana, Pleternica, Grad Pleternica, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.2875529,17.8016490"
+2,frame_0478.jpg,45.0005259,15.1337959,0.44691586874433553,"Osnovna škola Luke Perkovića, 44, Frankopanska, Zadgrad, Brinje, Općina Brinje, Ličko-senjska županija, 53260, Hrvatska","https://www.google.com/maps?q=45.0005259,15.1337959"
+3,frame_0344.jpg,45.4863939,15.5494811,0.4494886168204414,"Kintsugi, 16, Ulica Tadije Smičiklasa, Novi Centar, Banija, Karlovac, Grad Karlovac, Karlovačka županija, 47000, Hrvatska","https://www.google.com/maps?q=45.4863939,15.5494811"
+4,frame_0131.jpg,45.3398005,17.6790886,0.45012300121601956,"Ulica kralja Zvonimira, Mjesni odbor Orljava, Požega, Grad Požega, Požeško-slavonska županija, 34000, Hrvatska","https://www.google.com/maps?q=45.3398005,17.6790886"
+5,frame_0152.jpg,45.3397703,17.6795111,0.4508706445496821,"1, Ulica kralja Zvonimira, Mjesni odbor Orljava, Požega, Grad Požega, Požeško-slavonska županija, 34000, Hrvatska","https://www.google.com/maps?q=45.3397703,17.6795111"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0076.jpg,45.64227251352727,17.69005081546758,0.257922216777668,"D69, Ivanbrijeg, Grad Slatina, Općina Voćin, Virovitičko-podravska županija, 33520, Hrvatska","https://www.google.com/maps?q=45.6422725,17.6900508"
+2,frame_0368.jpg,45.5237477,17.9753948,0.2679402828216553,"Ferićeva ulica, Feričanci, Općina Feričanci, Osječko-baranjska županija, 31512, Hrvatska","https://www.google.com/maps?q=45.5237477,17.9753948"
+3,frame_0156.jpg,45.4144419,17.1604136,0.27184200286865234,"Budućnost, 10, Trg dr. Franje Tuđmana, Filipovac, Grad Lipik, Požeško-slavonska županija, 34551, Hrvatska","https://www.google.com/maps?q=45.4144419,17.1604136"
+4,frame_0413.jpg,45.588029,17.2206628,0.2769658235352198,"Ulica Petra Zrinskog, Dalit, Daruvar, Grad Daruvar, Bjelovarsko-bilogorska županija, 43500, Hrvatska","https://www.google.com/maps?q=45.5880290,17.2206628"
+5,frame_0054.jpg,45.6194489816401,17.54561070976008,0.27853262424468994,"Trg Gospe Voćinske, Voćin, Općina Voćin, Virovitičko-podravska županija, 33522, Hrvatska","https://www.google.com/maps?q=45.6194490,17.5456107"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0076.jpg,45.64227251352727,17.69005081546758,0.7182232128742099,"D69, Ivanbrijeg, Grad Slatina, Općina Voćin, Virovitičko-podravska županija, 33520, Hrvatska","https://www.google.com/maps?q=45.6422725,17.6900508"
+2,frame_0368.jpg,45.5237477,17.9753948,0.7320386774262377,"Ferićeva ulica, Feričanci, Općina Feričanci, Osječko-baranjska županija, 31512, Hrvatska","https://www.google.com/maps?q=45.5237477,17.9753948"
+3,frame_0156.jpg,45.4144419,17.1604136,0.7373493509469914,"Budućnost, 10, Trg dr. Franje Tuđmana, Filipovac, Grad Lipik, Požeško-slavonska županija, 34551, Hrvatska","https://www.google.com/maps?q=45.4144419,17.1604136"
+4,frame_0413.jpg,45.588029,17.2206628,0.744265688501777,"Ulica Petra Zrinskog, Dalit, Daruvar, Grad Daruvar, Bjelovarsko-bilogorska županija, 43500, Hrvatska","https://www.google.com/maps?q=45.5880290,17.2206628"
+5,frame_0054.jpg,45.6194489816401,17.54561070976008,0.7463680382287146,"Trg Gospe Voćinske, Voćin, Općina Voćin, Virovitičko-podravska županija, 33522, Hrvatska","https://www.google.com/maps?q=45.6194490,17.5456107"

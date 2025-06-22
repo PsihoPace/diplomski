@@ -1,0 +1,33 @@
+Izvorna slika: extract_5.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0324.jpg,45.545606,18.2500039,0.07060474157333374,"1, Kolodvorska ulica, Niza, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5456060,18.2500039"
+2,frame_0292.jpg,45.1373597,18.4097866,0.07329800943428266,"D7, Beravci, Općina Velika Kopanica, Brodsko-posavska županija, 35222, Hrvatska","https://www.google.com/maps?q=45.1373597,18.4097866"
+3,frame_0332.jpg,45.5456434,18.2481479,0.07505637854673575,"Kolodvorska ulica, Niza, Općina Koška, Osječko-baranjska županija, Hrvatska","https://www.google.com/maps?q=45.5456434,18.2481479"
+4,frame_0069.jpg,45.5452412,18.3089602,0.07530978546469724,"Ulica Nikole Šubića Zrinskog, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5452412,18.3089602"
+5,frame_0653.jpg,45.7151854,17.7110409,0.0758281946182251,"D2, Viđinica, Grad Slatina, Virovitičko-podravska županija, Hrvatska","https://www.google.com/maps?q=45.7151854,17.7110409"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0324.jpg,45.545606,18.2500039,0.37577852260051886,"1, Kolodvorska ulica, Niza, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5456060,18.2500039"
+2,frame_0292.jpg,45.1373597,18.4097866,0.38287870652026534,"D7, Beravci, Općina Velika Kopanica, Brodsko-posavska županija, 35222, Hrvatska","https://www.google.com/maps?q=45.1373597,18.4097866"
+3,frame_0332.jpg,45.5456434,18.2481479,0.38744421065097695,"Kolodvorska ulica, Niza, Općina Koška, Osječko-baranjska županija, Hrvatska","https://www.google.com/maps?q=45.5456434,18.2481479"
+4,frame_0069.jpg,45.5452412,18.3089602,0.3880975975892103,"Ulica Nikole Šubića Zrinskog, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5452412,18.3089602"
+5,frame_0653.jpg,45.7151854,17.7110409,0.38943092948698227,"D2, Viđinica, Grad Slatina, Virovitičko-podravska županija, Hrvatska","https://www.google.com/maps?q=45.7151854,17.7110409"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0293.jpg,45.137174,18.4099339,0.09328505118829866,"D7, Beravci, Općina Velika Kopanica, Brodsko-posavska županija, 35222, Hrvatska","https://www.google.com/maps?q=45.1371740,18.4099339"
+2,frame_0292.jpg,45.1373597,18.4097866,0.10346781590771337,"D7, Beravci, Općina Velika Kopanica, Brodsko-posavska županija, 35222, Hrvatska","https://www.google.com/maps?q=45.1373597,18.4097866"
+3,frame_0129.jpg,45.3336386,19.0330118,0.1102480756940688,"Ulica bana Josipa Jelačića, Velika skela, Mjesni odbor Mitnica, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32011, Hrvatska","https://www.google.com/maps?q=45.3336386,19.0330118"
+4,frame_0403.jpg,45.5482143,18.6597992,0.11592051603304954,"Obilaznica 106. brigade ZNG RH, Filipovica, Gradska četvrt Industrijska četvrt, Osijek, Grad Osijek, Osječko-baranjska županija, 31107, Hrvatska","https://www.google.com/maps?q=45.5482143,18.6597992"
+5,frame_0590.jpg,45.7076451,18.6757124,0.12403129052742212,"Ulica Stjepana Radića, Čeminac, Općina Čeminac, Osječko-baranjska županija, 31325, Hrvatska","https://www.google.com/maps?q=45.7076451,18.6757124"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0293.jpg,45.137174,18.4099339,0.4319375686755848,"D7, Beravci, Općina Velika Kopanica, Brodsko-posavska županija, 35222, Hrvatska","https://www.google.com/maps?q=45.1371740,18.4099339"
+2,frame_0292.jpg,45.1373597,18.4097866,0.45490179616020454,"D7, Beravci, Općina Velika Kopanica, Brodsko-posavska županija, 35222, Hrvatska","https://www.google.com/maps?q=45.1373597,18.4097866"
+3,frame_0129.jpg,45.3336386,19.0330118,0.46957020526577264,"Ulica bana Josipa Jelačića, Velika skela, Mjesni odbor Mitnica, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32011, Hrvatska","https://www.google.com/maps?q=45.3336386,19.0330118"
+4,frame_0403.jpg,45.5482143,18.6597992,0.48149848319396055,"Obilaznica 106. brigade ZNG RH, Filipovica, Gradska četvrt Industrijska četvrt, Osijek, Grad Osijek, Osječko-baranjska županija, 31107, Hrvatska","https://www.google.com/maps?q=45.5482143,18.6597992"
+5,frame_0590.jpg,45.7076451,18.6757124,0.4980587527784785,"Ulica Stjepana Radića, Čeminac, Općina Čeminac, Osječko-baranjska županija, 31325, Hrvatska","https://www.google.com/maps?q=45.7076451,18.6757124"

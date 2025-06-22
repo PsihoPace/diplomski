@@ -1,0 +1,33 @@
+Izvorna slika: mob_2.jpeg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0153.jpg,45.2839528,14.5796399,0.10619172770356278,"Jadranska magistrala, Bakarac, Grad Kraljevica, Primorsko-goranska županija, 51261, Hrvatska","https://www.google.com/maps?q=45.2839528,14.5796399"
+2,frame_0176.jpg,43.7067932,15.9264565,0.10741976223646843,"Vrpoljački put, Gradska četvrt Stari grad, Gradska četvrt Ražine, Šibenik, Grad Šibenik, Šibensko-kninska županija, 22106, Hrvatska","https://www.google.com/maps?q=43.7067932,15.9264565"
+3,frame_0552.jpg,45.2207577,18.9450393,0.10935095930257033,"22, Ulica braće Radić, Slakovci, Općina Stari Jankovci, Vukovarsko-srijemska županija, 32242, Hrvatska","https://www.google.com/maps?q=45.2207577,18.9450393"
+4,frame_0038.jpg,43.5257102,16.4900004,0.11008605689066775,"Bilice II, Mostine, Mejaši, Split, Grad Split, Splitsko-dalmatinska županija, 21113, Hrvatska","https://www.google.com/maps?q=43.5257102,16.4900004"
+5,frame_0275.jpg,43.5051049,16.5124709,0.11233864238905655,"Ulica kralja Držislava, Sirobuja, Split, Grad Split, Splitsko-dalmatinska županija, 21311, Hrvatska","https://www.google.com/maps?q=43.5051049,16.5124709"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0153.jpg,45.2839528,14.5796399,0.4608507559669223,"Jadranska magistrala, Bakarac, Grad Kraljevica, Primorsko-goranska županija, 51261, Hrvatska","https://www.google.com/maps?q=45.2839528,14.5796399"
+2,frame_0176.jpg,43.7067932,15.9264565,0.46350787250330855,"Vrpoljački put, Gradska četvrt Stari grad, Gradska četvrt Ražine, Šibenik, Grad Šibenik, Šibensko-kninska županija, 22106, Hrvatska","https://www.google.com/maps?q=43.7067932,15.9264565"
+3,frame_0552.jpg,45.2207577,18.9450393,0.4676559077604796,"22, Ulica braće Radić, Slakovci, Općina Stari Jankovci, Vukovarsko-srijemska županija, 32242, Hrvatska","https://www.google.com/maps?q=45.2207577,18.9450393"
+4,frame_0038.jpg,43.5257102,16.4900004,0.46922513405505634,"Bilice II, Mostine, Mejaši, Split, Grad Split, Splitsko-dalmatinska županija, 21113, Hrvatska","https://www.google.com/maps?q=43.5257102,16.4900004"
+5,frame_0275.jpg,43.5051049,16.5124709,0.47400142837059717,"Ulica kralja Držislava, Sirobuja, Split, Grad Split, Splitsko-dalmatinska županija, 21311, Hrvatska","https://www.google.com/maps?q=43.5051049,16.5124709"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0015.jpg,43.6180934,16.7317536,0.23701437601403952,"11, Kralja Tomislava, Šipići, Trilj, Grad Trilj, Splitsko-dalmatinska županija, 21240, Hrvatska","https://www.google.com/maps?q=43.6180934,16.7317536"
+2,frame_0014.jpg,43.6180171,16.731535,0.24125666249483013,"11, Kralja Tomislava, Šipići, Trilj, Grad Trilj, Splitsko-dalmatinska županija, 21240, Hrvatska","https://www.google.com/maps?q=43.6180171,16.7315350"
+3,frame_0165.jpg,43.5108075,16.487032,0.24856611345511037,"Ulica Zbora narodne garde, Pazdigrad, Žnjan, Split, Grad Split, Splitsko-dalmatinska županija, 21115, Hrvatska","https://www.google.com/maps?q=43.5108075,16.4870320"
+4,frame_0202.jpg,45.68133038076903,17.743834531536848,0.2490786090218603,"D2, Kozice, Grad Slatina, Virovitičko-podravska županija, 33518, Hrvatska","https://www.google.com/maps?q=45.6813304,17.7438345"
+5,frame_0033.jpg,46.0520861,16.0858909,0.2497109994378358,"Grančarska cesta, Škeci, Zlatar-Bistrica, Općina Zlatar Bistrica, Krapinsko-zagorska županija, 49247, Hrvatska","https://www.google.com/maps?q=46.0520861,16.0858909"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0015.jpg,43.6180934,16.7317536,0.6884974483270948,"11, Kralja Tomislava, Šipići, Trilj, Grad Trilj, Splitsko-dalmatinska županija, 21240, Hrvatska","https://www.google.com/maps?q=43.6180934,16.7317536"
+2,frame_0014.jpg,43.6180171,16.731535,0.694631693284863,"11, Kralja Tomislava, Šipići, Trilj, Grad Trilj, Splitsko-dalmatinska županija, 21240, Hrvatska","https://www.google.com/maps?q=43.6180171,16.7315350"
+3,frame_0165.jpg,43.5108075,16.487032,0.7050760327252652,"Ulica Zbora narodne garde, Pazdigrad, Žnjan, Split, Grad Split, Splitsko-dalmatinska županija, 21115, Hrvatska","https://www.google.com/maps?q=43.5108075,16.4870320"
+4,frame_0202.jpg,45.68133038076903,17.743834531536848,0.705802524221527,"D2, Kozice, Grad Slatina, Virovitičko-podravska županija, 33518, Hrvatska","https://www.google.com/maps?q=45.6813304,17.7438345"
+5,frame_0033.jpg,46.0520861,16.0858909,0.7066980071885429,"Grančarska cesta, Škeci, Zlatar-Bistrica, Općina Zlatar Bistrica, Krapinsko-zagorska županija, 49247, Hrvatska","https://www.google.com/maps?q=46.0520861,16.0858909"

@@ -1,0 +1,33 @@
+Izvorna slika: baza_10.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0000.jpg,44.3498615,15.3159767,0.0,"D8, Tribanj Kruščica, Kopovine, Tribanj, Općina Starigrad, Zadarska županija, 23245, Hrvatska","https://www.google.com/maps?q=44.3498615,15.3159767"
+2,frame_1318.jpg,46.3559802,16.1518088,0.09781248543411325,"Varaždinska ulica, Gornje Vratno, Općina Cestica, Varaždinska županija, 42008, Hrvatska","https://www.google.com/maps?q=46.3559802,16.1518088"
+3,frame_0342.jpg,45.414145,14.3026039,0.0996666610042235,"Permani, Općina Matulji, Primorsko-goranska županija, 51213, Hrvatska","https://www.google.com/maps?q=45.4141450,14.3026039"
+4,frame_0172.jpg,45.2800276,14.5815243,0.10301226991488,"78, Bakarac, Grad Kraljevica, Primorsko-goranska županija, 51261, Hrvatska","https://www.google.com/maps?q=45.2800276,14.5815243"
+5,frame_0264.jpg,43.3722572,16.9311986,0.10427951812743508,"Breljanska cesta, Soline, Brela, Općina Brela, Splitsko-dalmatinska županija, 21322, Hrvatska","https://www.google.com/maps?q=43.3722572,16.9311986"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0000.jpg,44.3498615,15.3159767,0.0,"D8, Tribanj Kruščica, Kopovine, Tribanj, Općina Starigrad, Zadarska županija, 23245, Hrvatska","https://www.google.com/maps?q=44.3498615,15.3159767"
+2,frame_1318.jpg,46.3559802,16.1518088,0.44229502364741546,"Varaždinska ulica, Gornje Vratno, Općina Cestica, Varaždinska županija, 42008, Hrvatska","https://www.google.com/maps?q=46.3559802,16.1518088"
+3,frame_0342.jpg,45.414145,14.3026039,0.44646772485426967,"Permani, Općina Matulji, Primorsko-goranska županija, 51213, Hrvatska","https://www.google.com/maps?q=45.4141450,14.3026039"
+4,frame_0172.jpg,45.2800276,14.5815243,0.45389941238269477,"78, Bakarac, Grad Kraljevica, Primorsko-goranska županija, 51261, Hrvatska","https://www.google.com/maps?q=45.2800276,14.5815243"
+5,frame_0264.jpg,43.3722572,16.9311986,0.4566824796762745,"Breljanska cesta, Soline, Brela, Općina Brela, Splitsko-dalmatinska županija, 21322, Hrvatska","https://www.google.com/maps?q=43.3722572,16.9311986"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0000.jpg,44.3498615,15.3159767,0.0,"D8, Tribanj Kruščica, Kopovine, Tribanj, Općina Starigrad, Zadarska županija, 23245, Hrvatska","https://www.google.com/maps?q=44.3498615,15.3159767"
+2,frame_1011.jpg,44.0332057,15.5994563,0.31002086192555955,"Zadarska ulica, Benkovac, Grad Benkovac, Zadarska županija, 23420, Hrvatska","https://www.google.com/maps?q=44.0332057,15.5994563"
+3,frame_0198.jpg,43.443049,17.2341002,0.3195878648266631,"D60, Zakarije, Medvidovića Draga, Grad Imotski, Splitsko-dalmatinska županija, 21260, Hrvatska","https://www.google.com/maps?q=43.4430490,17.2341002"
+4,frame_0767.jpg,43.4563959,17.067193,0.3272861832934183,"D60, Poboji, Kljenovac, Lokvičići, Općina Lokvičići, Splitsko-dalmatinska županija, 21263, Hrvatska","https://www.google.com/maps?q=43.4563959,17.0671930"
+5,frame_0013.jpg,43.691574,16.480786,0.3420558179650186,"D56, Orlovići, Donji Muć, Općina Muć, Splitsko-dalmatinska županija, 21203, Hrvatska","https://www.google.com/maps?q=43.6915740,16.4807860"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0000.jpg,44.3498615,15.3159767,0.0,"D8, Tribanj Kruščica, Kopovine, Tribanj, Općina Starigrad, Zadarska županija, 23245, Hrvatska","https://www.google.com/maps?q=44.3498615,15.3159767"
+2,frame_1011.jpg,44.0332057,15.5994563,0.7874272464266585,"Zadarska ulica, Benkovac, Grad Benkovac, Zadarska županija, 23420, Hrvatska","https://www.google.com/maps?q=44.0332057,15.5994563"
+3,frame_0198.jpg,43.443049,17.2341002,0.7994848037835776,"D60, Zakarije, Medvidovića Draga, Grad Imotski, Splitsko-dalmatinska županija, 21260, Hrvatska","https://www.google.com/maps?q=43.4430490,17.2341002"
+4,frame_0767.jpg,43.4563959,17.067193,0.8090565412117013,"D60, Poboji, Kljenovac, Lokvičići, Općina Lokvičići, Splitsko-dalmatinska županija, 21263, Hrvatska","https://www.google.com/maps?q=43.4563959,17.0671930"
+5,frame_0013.jpg,43.691574,16.480786,0.8271103887352694,"D56, Orlovići, Donji Muć, Općina Muć, Splitsko-dalmatinska županija, 21203, Hrvatska","https://www.google.com/maps?q=43.6915740,16.4807860"

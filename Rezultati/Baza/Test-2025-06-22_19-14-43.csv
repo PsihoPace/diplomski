@@ -1,0 +1,33 @@
+Izvorna slika: baza_7.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0004.jpg,45.9760061,15.8483688,0.0,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9760061,15.8483688"
+2,frame_0006.jpg,45.976437,15.8481674,0.040287792682647705,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9764370,15.8481674"
+3,frame_0007.jpg,45.9766438,15.8480552,0.04578477144241333,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9766438,15.8480552"
+4,frame_0538.jpg,45.9686602,15.8474238,0.05391800724971174,"D1, Igrišće, Općina Jakovlje, Zagrebačka županija, 10296, Hrvatska","https://www.google.com/maps?q=45.9686602,15.8474238"
+5,frame_0002.jpg,45.9755571,15.848535,0.05472046136856079,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9755571,15.8485350"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0004.jpg,45.9760061,15.8483688,0.0,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9760061,15.8483688"
+2,frame_0006.jpg,45.976437,15.8481674,0.28385836338592213,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9764370,15.8481674"
+3,frame_0007.jpg,45.9766438,15.8480552,0.30260472136209743,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9766438,15.8480552"
+4,frame_0538.jpg,45.9686602,15.8474238,0.3283838658771405,"D1, Igrišće, Općina Jakovlje, Zagrebačka županija, 10296, Hrvatska","https://www.google.com/maps?q=45.9686602,15.8474238"
+5,frame_0002.jpg,45.9755571,15.848535,0.3308187561142683,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9755571,15.8485350"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0004.jpg,45.9760061,15.8483688,0.0,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9760061,15.8483688"
+2,frame_0006.jpg,45.976437,15.8481674,0.09265165968825295,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9764370,15.8481674"
+3,frame_0005.jpg,45.9762276,15.8482707,0.10594570005263526,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9762276,15.8482707"
+4,frame_0013.jpg,45.9777972,15.8472476,0.10654573997582395,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9777972,15.8472476"
+5,frame_0183.jpg,45.9026588,15.813334,0.11115456289972814,"D1, Donja Bistra, Općina Bistra, Zagrebačka županija, 10492, Hrvatska","https://www.google.com/maps?q=45.9026588,15.8133340"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0004.jpg,45.9760061,15.8483688,0.0,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9760061,15.8483688"
+2,frame_0006.jpg,45.976437,15.8481674,0.4304685949197202,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9764370,15.8481674"
+3,frame_0005.jpg,45.9762276,15.8482707,0.4603161746031859,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9762276,15.8482707"
+4,frame_0013.jpg,45.9777972,15.8472476,0.4616183570375579,"D1, Stubička Slatina, Grad Oroslavje, Krapinsko-zagorska županija, 49214, Hrvatska","https://www.google.com/maps?q=45.9777972,15.8472476"
+5,frame_0183.jpg,45.9026588,15.813334,0.47149649907083613,"D1, Donja Bistra, Općina Bistra, Zagrebačka županija, 10492, Hrvatska","https://www.google.com/maps?q=45.9026588,15.8133340"

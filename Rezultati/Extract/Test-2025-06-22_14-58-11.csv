@@ -1,0 +1,33 @@
+Izvorna slika: extract_3.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0195.jpg,43.9627327,16.3718655,0.022809326648712158,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9627327,16.3718655"
+2,frame_1039.jpg,43.9643706,16.3669,0.059824880371993294,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9643706,16.3669000"
+3,frame_0194.jpg,43.9626471,16.3720968,0.059991538524627686,"D1, Kod doma, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9626471,16.3720968"
+4,frame_1055.jpg,43.9631892,16.3705117,0.06761586666107178,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9631892,16.3705117"
+5,frame_0199.jpg,43.963048,16.3709796,0.06938448755098803,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9630480,16.3709796"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0195.jpg,43.9627327,16.3718655,0.2135852366092383,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9627327,16.3718655"
+2,frame_1039.jpg,43.9643706,16.3669,0.3459045663782823,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9643706,16.3669000"
+3,frame_0194.jpg,43.9626471,16.3720968,0.34638551938215234,"D1, Kod doma, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9626471,16.3720968"
+4,frame_1055.jpg,43.9631892,16.3705117,0.36773901974346407,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9631892,16.3705117"
+5,frame_0199.jpg,43.963048,16.3709796,0.37251675472085816,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9630480,16.3709796"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0195.jpg,43.9627327,16.3718655,0.019638003089308964,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9627327,16.3718655"
+2,frame_0197.jpg,43.9628936,16.3714194,0.07236590765815876,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9628936,16.3714194"
+3,frame_0198.jpg,43.9629706,16.3712019,0.07408675772210194,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9629706,16.3712019"
+4,frame_0194.jpg,43.9626471,16.3720968,0.0836838210726919,"D1, Kod doma, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9626471,16.3720968"
+5,frame_0199.jpg,43.963048,16.3709796,0.08550569669919261,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9630480,16.3709796"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0195.jpg,43.9627327,16.3718655,0.19818207341418623,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9627327,16.3718655"
+2,frame_0197.jpg,43.9628936,16.3714194,0.38043619756850117,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9628936,16.3714194"
+3,frame_0198.jpg,43.9629706,16.3712019,0.38493304797541744,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9629706,16.3712019"
+4,frame_0194.jpg,43.9626471,16.3720968,0.4091058996854484,"D1, Kod doma, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9626471,16.3720968"
+5,frame_0199.jpg,43.963048,16.3709796,0.4135350160360245,"Bajani, Kijevo, Općina Kijevo, Šibensko-kninska županija, 22310, Hrvatska","https://www.google.com/maps?q=43.9630480,16.3709796"

@@ -1,0 +1,33 @@
+Izvorna slika: baza_3.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0099.jpg,45.1833434,17.6689432,0.0,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1833434,17.6689432"
+2,frame_0098.jpg,45.1834919,17.668757,0.06402068948622242,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1834919,17.6687570"
+3,frame_0001.jpg,45.1998888,17.6686593,0.06478869915008545,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1998888,17.6686593"
+4,frame_0017.jpg,45.189798,17.9059433,0.064808432150388,"Ulica sibinjskih žrtava, Sibinj, Općina Sibinj, Brodsko-posavska županija, 35252, Hrvatska","https://www.google.com/maps?q=45.1897980,17.9059433"
+5,frame_0355.jpg,45.2585259,17.8285507,0.06808215379714966,"Kadanovci, Grad Pleternica, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.2585259,17.8285507"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0099.jpg,45.1833434,17.6689432,0.0,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1833434,17.6689432"
+2,frame_0098.jpg,45.1834919,17.668757,0.3578285655117276,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1834919,17.6687570"
+3,frame_0001.jpg,45.1998888,17.6686593,0.35996856598576565,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1998888,17.6686593"
+4,frame_0017.jpg,45.189798,17.9059433,0.3600232042013407,"Ulica sibinjskih žrtava, Sibinj, Općina Sibinj, Brodsko-posavska županija, 35252, Hrvatska","https://www.google.com/maps?q=45.1897980,17.9059433"
+5,frame_0355.jpg,45.2585259,17.8285507,0.36900438085271203,"Kadanovci, Grad Pleternica, Požeško-slavonska županija, Hrvatska","https://www.google.com/maps?q=45.2585259,17.8285507"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0099.jpg,45.1833434,17.6689432,0.0,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1833434,17.6689432"
+2,frame_0100.jpg,45.1831978,17.6691219,0.14524633558072508,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1831978,17.6691219"
+3,frame_0180.jpg,45.3681785,17.9744586,0.16089529758067567,"D53, Milanlug, Općina Čaglin, Požeško-slavonska županija, 34350, Hrvatska","https://www.google.com/maps?q=45.3681785,17.9744586"
+4,frame_0138.jpg,45.90268623077343,17.440083113699547,0.1609440137643824,"D5, Gornje Bazje, Općina Lukač, Virovitičko-podravska županija, Hrvatska","https://www.google.com/maps?q=45.9026862,17.4400831"
+5,frame_0081.jpg,45.1900467,17.9067567,0.16142960327024503,"Ulica sibinjskih žrtava, Sibinj, Općina Sibinj, Brodsko-posavska županija, 35252, Hrvatska","https://www.google.com/maps?q=45.1900467,17.9067567"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0099.jpg,45.1833434,17.6689432,0.0,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1833434,17.6689432"
+2,frame_0100.jpg,45.1831978,17.6691219,0.5389736489310919,"D49, Batrina, Općina Nova Kapela, Brodsko-posavska županija, 35410, Hrvatska","https://www.google.com/maps?q=45.1831978,17.6691219"
+3,frame_0180.jpg,45.3681785,17.9744586,0.5672658251441693,"D53, Milanlug, Općina Čaglin, Požeško-slavonska županija, 34350, Hrvatska","https://www.google.com/maps?q=45.3681785,17.9744586"
+4,frame_0138.jpg,45.90268623077343,17.440083113699547,0.5673517950775077,"D5, Gornje Bazje, Općina Lukač, Virovitičko-podravska županija, Hrvatska","https://www.google.com/maps?q=45.9026862,17.4400831"
+5,frame_0081.jpg,45.1900467,17.9067567,0.5682070813197975,"Ulica sibinjskih žrtava, Sibinj, Općina Sibinj, Brodsko-posavska županija, 35252, Hrvatska","https://www.google.com/maps?q=45.1900467,17.9067567"

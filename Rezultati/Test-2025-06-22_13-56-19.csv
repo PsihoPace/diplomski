@@ -1,0 +1,33 @@
+Izvorna slika: mob_1.jpeg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0883.jpg,45.5449008,18.2906497,0.13023029205437375,"Ulica Nikole Šubića Zrinskog, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5449008,18.2906497"
+2,frame_0898.jpg,45.5448233,18.2943607,0.13061343845048756,"Ulica Nikole Šubića Zrinskog, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5448233,18.2943607"
+3,frame_0091.jpg,45.5060588,18.1116002,0.1367405652999878,"Osječka ulica, Markovac Našički, Grad Našice, Osječko-baranjska županija, 31500, Hrvatska","https://www.google.com/maps?q=45.5060588,18.1116002"
+4,frame_0258.jpg,45.1154813,18.4526562,0.136814032102049,"Ulica kardinala Alojzja Stepinca, Sikirevci, Općina Sikirevci, Brodsko-posavska županija, 35224, Hrvatska","https://www.google.com/maps?q=45.1154813,18.4526562"
+5,frame_0979.jpg,45.5455122,18.3144662,0.13745147809096891,"Ulica Nikole Šubića Zrinskog, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5455122,18.3144662"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0883.jpg,45.5449008,18.2906497,0.5103532466283983,"Ulica Nikole Šubića Zrinskog, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5449008,18.2906497"
+2,frame_0898.jpg,45.5448233,18.2943607,0.511103456708817,"Ulica Nikole Šubića Zrinskog, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5448233,18.2943607"
+3,frame_0091.jpg,45.5060588,18.1116002,0.5229542337527975,"Osječka ulica, Markovac Našički, Grad Našice, Osječko-baranjska županija, 31500, Hrvatska","https://www.google.com/maps?q=45.5060588,18.1116002"
+4,frame_0258.jpg,45.1154813,18.4526562,0.5230947482569402,"Ulica kardinala Alojzja Stepinca, Sikirevci, Općina Sikirevci, Brodsko-posavska županija, 35224, Hrvatska","https://www.google.com/maps?q=45.1154813,18.4526562"
+5,frame_0979.jpg,45.5455122,18.3144662,0.5243120715878135,"Ulica Nikole Šubića Zrinskog, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5455122,18.3144662"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0090.jpg,45.3395621,17.6705283,0.24058391926932277,"18, Zrinska ulica, Mjesni odbor Ciglana, Mjesni odbor Orljava, Požega, Grad Požega, Požeško-slavonska županija, 34000, Hrvatska","https://www.google.com/maps?q=45.3395621,17.6705283"
+2,frame_0460.jpg,45.8223379,17.4108166,0.2613549076703233,"Osječka ulica, Taborište, Virovitica, Grad Virovitica, Virovitičko-podravska županija, 33000, Hrvatska","https://www.google.com/maps?q=45.8223379,17.4108166"
+3,frame_0481.jpg,45.8212803,17.4155276,0.2713186579156709,"Osječka ulica, Taborište, Virovitica, Grad Virovitica, Virovitičko-podravska županija, 33000, Hrvatska","https://www.google.com/maps?q=45.8212803,17.4155276"
+4,frame_0264.jpg,45.3477512,18.3814006,0.271851978544829,"Ulica Josipa bana Jelačića, Satnica Đakovačka, Općina Satnica Đakovačka, Osječko-baranjska županija, 31421, Hrvatska","https://www.google.com/maps?q=45.3477512,18.3814006"
+5,frame_0214.jpg,45.5455943,18.2754451,0.2729067585738446,"Ulica Matije Gupca, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5455943,18.2754451"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0090.jpg,45.3395621,17.6705283,0.6936627221408543,"18, Zrinska ulica, Mjesni odbor Ciglana, Mjesni odbor Orljava, Požega, Grad Požega, Požeško-slavonska županija, 34000, Hrvatska","https://www.google.com/maps?q=45.3395621,17.6705283"
+2,frame_0460.jpg,45.8223379,17.4108166,0.7229866715834341,"Osječka ulica, Taborište, Virovitica, Grad Virovitica, Virovitičko-podravska županija, 33000, Hrvatska","https://www.google.com/maps?q=45.8223379,17.4108166"
+3,frame_0481.jpg,45.8212803,17.4155276,0.7366391847915803,"Osječka ulica, Taborište, Virovitica, Grad Virovitica, Virovitičko-podravska županija, 33000, Hrvatska","https://www.google.com/maps?q=45.8212803,17.4155276"
+4,frame_0264.jpg,45.3477512,18.3814006,0.7373629717494897,"Ulica Josipa bana Jelačića, Satnica Đakovačka, Općina Satnica Đakovačka, Osječko-baranjska županija, 31421, Hrvatska","https://www.google.com/maps?q=45.3477512,18.3814006"
+5,frame_0214.jpg,45.5455943,18.2754451,0.7387920408986073,"Ulica Matije Gupca, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska","https://www.google.com/maps?q=45.5455943,18.2754451"

@@ -1,0 +1,33 @@
+Izvorna slika: test_pakrac.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0114.jpg,44.8673555,15.251439,0.07996851682475148,"Ulica kralja Zvonimira, Lidl Otočac, Otočac, Grad Otočac, Ličko-senjska županija, 53220, Hrvatska","https://www.google.com/maps?q=44.8673555,15.2514390"
+2,frame_0054.jpg,45.2295236,16.5353561,0.08534723011569634,"46, Ulica Gordana Lederera, Ufinac, Hrvatska Kostajnica, Grad Hrvatska Kostajnica, Sisačko-moslavačka županija, Hrvatska","https://www.google.com/maps?q=45.2295236,16.5353561"
+3,frame_0711.jpg,45.4782749,16.393826,0.08535897731781006,"8, Galdovačka ulica, Gradska četvrt Galdovo, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44104, Hrvatska","https://www.google.com/maps?q=45.4782749,16.3938260"
+4,frame_0111.jpg,44.8671932,15.252118,0.08594370400569895,"Ulica kralja Zvonimira, Lidl Otočac, Otočac, Grad Otočac, Ličko-senjska županija, 53220, Hrvatska","https://www.google.com/maps?q=44.8671932,15.2521180"
+5,frame_0258.jpg,45.5564093,15.5767781,0.08677548170089722,"D1, Lug, Mjesni odbor Mrzljaki - Goljak, Draganić, Općina Draganić, Karlovačka županija, 47286, Hrvatska","https://www.google.com/maps?q=45.5564093,15.5767781"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0114.jpg,44.8673555,15.251439,0.39992134691856707,"Ulica kralja Zvonimira, Lidl Otočac, Otočac, Grad Otočac, Ličko-senjska županija, 53220, Hrvatska","https://www.google.com/maps?q=44.8673555,15.2514390"
+2,frame_0054.jpg,45.2295236,16.5353561,0.4131518552595612,"46, Ulica Gordana Lederera, Ufinac, Hrvatska Kostajnica, Grad Hrvatska Kostajnica, Sisačko-moslavačka županija, Hrvatska","https://www.google.com/maps?q=45.2295236,16.5353561"
+3,frame_0711.jpg,45.4782749,16.393826,0.41318029313559973,"8, Galdovačka ulica, Gradska četvrt Galdovo, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44104, Hrvatska","https://www.google.com/maps?q=45.4782749,16.3938260"
+4,frame_0111.jpg,44.8671932,15.252118,0.4145929968808322,"Ulica kralja Zvonimira, Lidl Otočac, Otočac, Grad Otočac, Ličko-senjska županija, 53220, Hrvatska","https://www.google.com/maps?q=44.8671932,15.2521180"
+5,frame_0258.jpg,45.5564093,15.5767781,0.4165945547008977,"D1, Lug, Mjesni odbor Mrzljaki - Goljak, Draganić, Općina Draganić, Karlovačka županija, 47286, Hrvatska","https://www.google.com/maps?q=45.5564093,15.5767781"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0131.jpg,44.8683408,15.2475943,0.220916426805151,"Ulica kralja Zvonimira, Lidl Otočac, Otočac, Grad Otočac, Ličko-senjska županija, 53220, Hrvatska","https://www.google.com/maps?q=44.8683408,15.2475943"
+2,frame_1176.jpg,45.4793637,18.0677935,0.23142168615524994,"Našička ulica, Donja Mala, Zoljan, Grad Našice, Osječko-baranjska županija, 31513, Hrvatska","https://www.google.com/maps?q=45.4793637,18.0677935"
+3,frame_1010.jpg,45.4810713,16.4276695,0.2327152996702757,"315, Galdovačka ulica, Gradska četvrt Galdovo, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44202, Hrvatska","https://www.google.com/maps?q=45.4810713,16.4276695"
+4,frame_1031.jpg,43.0555189,17.6398871,0.23292842303853178,"Zrinskih i Frankopana, Metković, Grad Metković, Dubrovačko-neretvanska županija, 20350, Hrvatska","https://www.google.com/maps?q=43.0555189,17.6398871"
+5,frame_1448.jpg,45.7461172,16.6105707,0.23453707386220968,"Livadarska ulica, Gradina, Čazma, Grad Čazma, Bjelovarsko-bilogorska županija, 43240, Hrvatska","https://www.google.com/maps?q=45.7461172,16.6105707"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0131.jpg,44.8683408,15.2475943,0.6647050553744382,"Ulica kralja Zvonimira, Lidl Otočac, Otočac, Grad Otočac, Ličko-senjska županija, 53220, Hrvatska","https://www.google.com/maps?q=44.8683408,15.2475943"
+2,frame_1176.jpg,45.4793637,18.0677935,0.6803260084150705,"Našička ulica, Donja Mala, Zoljan, Grad Našice, Osječko-baranjska županija, 31513, Hrvatska","https://www.google.com/maps?q=45.4793637,18.0677935"
+3,frame_1010.jpg,45.4810713,16.4276695,0.6822248867832313,"315, Galdovačka ulica, Gradska četvrt Galdovo, Sisak, Grad Sisak, Sisačko-moslavačka županija, 44202, Hrvatska","https://www.google.com/maps?q=45.4810713,16.4276695"
+4,frame_1031.jpg,43.0555189,17.6398871,0.6825371560263491,"Zrinskih i Frankopana, Metković, Grad Metković, Dubrovačko-neretvanska županija, 20350, Hrvatska","https://www.google.com/maps?q=43.0555189,17.6398871"
+5,frame_1448.jpg,45.7461172,16.6105707,0.6848897583163853,"Livadarska ulica, Gradina, Čazma, Grad Čazma, Bjelovarsko-bilogorska županija, 43240, Hrvatska","https://www.google.com/maps?q=45.7461172,16.6105707"

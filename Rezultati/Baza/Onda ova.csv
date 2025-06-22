@@ -1,0 +1,33 @@
+Izvorna slika: baza_4.jpg;;;;;;
+;;;;;;
+Rezultati - ResNet (Kosinusna udaljenost);;;;;;
+Rank;Image;Lat;Lon;Dist;Adresa;Google Maps
+1;frame_0002.jpg;45.370.581;189.578.901;0.0;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3705810,18.9578901
+2;frame_0425.jpg;453.705.825;189.578.083;0.0854676587461437;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3705825,18.9578083
+3;frame_0428.jpg;453.703.073;189.584.496;0.08564433200226862;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3703073,18.9584496
+4;frame_0423.jpg;453.707.676;189.573.848;0.08767774439818066;INA Vukovar-Kudeljarska, 3, Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3707676,18.9573848
+5;frame_0019.jpg;45.366.881;189.754.872;0.08789024018914182;Priljevo, Mjesni odbor Centar, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3668810,18.9754872
+;;;;;;
+Rezultati - ResNet (Euklidska udaljenost);;;;;;
+Rank;Image;Lat;Lon;Dist;Adresa;Google Maps
+1;frame_0002.jpg;45.370.581;189.578.901;0.0;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3705810,18.9578901
+2;frame_0425.jpg;453.705.825;189.578.083;0.41344313813024836;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3705825,18.9578083
+3;frame_0428.jpg;453.703.073;189.584.496;0.4138702810116954;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3703073,18.9584496
+4;frame_0423.jpg;453.707.676;189.573.848;0.4187543740684602;INA Vukovar-Kudeljarska, 3, Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3707676,18.9573848
+5;frame_0019.jpg;45.366.881;189.754.872;0.4192617506224162;Priljevo, Mjesni odbor Centar, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3668810,18.9754872
+;;;;;;
+Rezultati - ViT (Kosinusna udaljenost);;;;;;
+Rank;Image;Lat;Lon;Dist;Adresa;Google Maps
+1;frame_0002.jpg;45.370.581;189.578.901;0.0;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3705810,18.9578901
+2;frame_0124.jpg;455.417.183;186.837.526;0.22977441549300603;Obilaznica 106. brigade ZNG RH, Lončarica, Gradska četvrt Industrijska četvrt, Osijek, Grad Osijek, Osječko-baranjska županija, 31108, Hrvatska;https://www.google.com/maps?q=45.5417183,18.6837526
+3;frame_0001.jpg;453.704.908;189.581.042;0.2335331718365159;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3704908,18.9581042
+4;frame_0004.jpg;45.370.762;189.574.602;0.23800191140197646;INA Vukovar-Kudeljarska, 3, Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3707620,18.9574602
+5;frame_0286.jpg;453.576.631;189.953.892;0.24137809769846175;Ekonomska škola Vukovar, 52, Županijska ulica, Novi Vukovar, Mjesni odbor Centar, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3576631,18.9953892
+;;;;;;
+Rezultati - ViT (Euklidska udaljenost);;;;;;
+Rank;Image;Lat;Lon;Dist;Adresa;Google Maps
+1;frame_0002.jpg;45.370.581;189.578.901;0.0;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3705810,18.9578901
+2;frame_0124.jpg;455.417.183;186.837.526;0.6779004423954577;Obilaznica 106. brigade ZNG RH, Lončarica, Gradska četvrt Industrijska četvrt, Osijek, Grad Osijek, Osječko-baranjska županija, 31108, Hrvatska;https://www.google.com/maps?q=45.5417183,18.6837526
+3;frame_0001.jpg;453.704.908;189.581.042;0.6834225249426811;Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3704908,18.9581042
+4;frame_0004.jpg;45.370.762;189.574.602;0.689930434521086;INA Vukovar-Kudeljarska, 3, Kudeljarska ulica, Trokut, Mjesni odbor Trokut, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3707620,18.9574602
+5;frame_0286.jpg;453.576.631;189.953.892;0.694806718639421;Ekonomska škola Vukovar, 52, Županijska ulica, Novi Vukovar, Mjesni odbor Centar, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;https://www.google.com/maps?q=45.3576631,18.9953892

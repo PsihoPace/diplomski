@@ -1,0 +1,33 @@
+Izvorna slika: baza_2.jpg;;;;;;
+;;;;;;
+Rezultati - ResNet (Kosinusna udaljenost);;;;;;
+Rank;Image;Lat;Lon;Dist;Adresa;Google Maps
+1;frame_0160.jpg;452.326.455;192.944.549;0.0;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2326455,19.2944549
+2;frame_0446.jpg;452.189.233;189.534.501;0.08070850372314453;32, Ulica Josipa Kozarca, Slakovci, Općina Stari Jankovci, Vukovarsko-srijemska županija, 32242, Hrvatska;https://www.google.com/maps?q=45.2189233,18.9534501
+3;frame_0154.jpg;452.327.003;192.930.678;0.08361952998521582;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2327003,19.2930678
+4;frame_0161.jpg;452.326.442;19.294.685;0.08699727058410645;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2326442,19.2946850
+5;frame_0486.jpg;451.620.714;191.613.253;0.09442329406738281;Ulica bana Josipa Jelačića, Tovarnik, Općina Tovarnik, Vukovarsko-srijemska županija, 32249, Hrvatska;https://www.google.com/maps?q=45.1620714,19.1613253
+;;;;;;
+Rezultati - ResNet (Euklidska udaljenost);;;;;;
+Rank;Image;Lat;Lon;Dist;Adresa;Google Maps
+1;frame_0160.jpg;452.326.455;192.944.549;0.0;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2326455,19.2944549
+2;frame_0446.jpg;452.189.233;189.534.501;0.40176746614584935;32, Ulica Josipa Kozarca, Slakovci, Općina Stari Jankovci, Vukovarsko-srijemska županija, 32242, Hrvatska;https://www.google.com/maps?q=45.2189233,18.9534501
+3;frame_0154.jpg;452.327.003;192.930.678;0.40894884685694716;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2327003,19.2930678
+4;frame_0161.jpg;452.326.442;19.294.685;0.41712642179709225;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2326442,19.2946850
+5;frame_0486.jpg;451.620.714;191.613.253;0.4345648604490336;Ulica bana Josipa Jelačića, Tovarnik, Općina Tovarnik, Vukovarsko-srijemska županija, 32249, Hrvatska;https://www.google.com/maps?q=45.1620714,19.1613253
+;;;;;;
+Rezultati - ViT (Kosinusna udaljenost);;;;;;
+Rank;Image;Lat;Lon;Dist;Adresa;Google Maps
+1;frame_0160.jpg;452.326.455;192.944.549;0.0;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2326455,19.2944549
+2;frame_0154.jpg;452.327.003;192.930.678;0.15952286599644583;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2327003,19.2930678
+3;frame_0446.jpg;452.189.233;189.534.501;0.16506068914766825;32, Ulica Josipa Kozarca, Slakovci, Općina Stari Jankovci, Vukovarsko-srijemska županija, 32242, Hrvatska;https://www.google.com/maps?q=45.2189233,18.9534501
+4;frame_0210.jpg;455.456.181;182.763.542;0.17803821498269445;Ulica Matije Gupca, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska;https://www.google.com/maps?q=45.5456181,18.2763542
+5;frame_0295.jpg;454.959.365;18.672.535;0.18272340297698975;Ulica Ante Starčevića, Antunovac, Općina Antunovac, Osječko-baranjska županija, 31216, Hrvatska;https://www.google.com/maps?q=45.4959365,18.6725350
+;;;;;;
+Rezultati - ViT (Euklidska udaljenost);;;;;;
+Rank;Image;Lat;Lon;Dist;Adresa;Google Maps
+1;frame_0160.jpg;452.326.455;192.944.549;0.0;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2326455,19.2944549
+2;frame_0154.jpg;452.327.003;192.930.678;0.5648412722880153;Ulica Stjepana Radića, Šarengrad, Grad Ilok, Vukovarsko-srijemska županija, 32234, Hrvatska;https://www.google.com/maps?q=45.2327003,19.2930678
+3;frame_0446.jpg;452.189.233;189.534.501;0.5745617627010804;32, Ulica Josipa Kozarca, Slakovci, Općina Stari Jankovci, Vukovarsko-srijemska županija, 32242, Hrvatska;https://www.google.com/maps?q=45.2189233,18.9534501
+4;frame_0210.jpg;455.456.181;182.763.542;0.5967214916213214;Ulica Matije Gupca, Koška, Općina Koška, Osječko-baranjska županija, 31224, Hrvatska;https://www.google.com/maps?q=45.5456181,18.2763542
+5;frame_0295.jpg;454.959.365;18.672.535;0.60452203877191;Ulica Ante Starčevića, Antunovac, Općina Antunovac, Osječko-baranjska županija, 31216, Hrvatska;https://www.google.com/maps?q=45.4959365,18.6725350

@@ -1,0 +1,33 @@
+Izvorna slika: baza_9.jpg
+
+Rezultati - ResNet (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0091.jpg,45.3280104,18.8332456,0.0,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3280104,18.8332456"
+2,frame_0030.jpg,45.3332859,18.8461589,0.07054471128646,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3332859,18.8461589"
+3,frame_0447.jpg,45.823046,17.4078756,0.07054632481656353,"Osječka ulica, Taborište, Virovitica, Grad Virovitica, Virovitičko-podravska županija, 33000, Hrvatska","https://www.google.com/maps?q=45.8230460,17.4078756"
+4,frame_0013.jpg,45.3665389,18.9768236,0.07265365123748124,"Priljevo, Mjesni odbor Centar, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska","https://www.google.com/maps?q=45.3665389,18.9768236"
+5,frame_0085.jpg,45.3286244,18.8345052,0.07376407697629006,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3286244,18.8345052"
+
+Rezultati - ResNet (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0091.jpg,45.3280104,18.8332456,0.0,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3280104,18.8332456"
+2,frame_0030.jpg,45.3332859,18.8461589,0.3756183453571803,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3332859,18.8461589"
+3,frame_0447.jpg,45.823046,17.4078756,0.37562290749625554,"Osječka ulica, Taborište, Virovitica, Grad Virovitica, Virovitičko-podravska županija, 33000, Hrvatska","https://www.google.com/maps?q=45.8230460,17.4078756"
+4,frame_0013.jpg,45.3665389,18.9768236,0.38119179328218233,"Priljevo, Mjesni odbor Centar, Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska","https://www.google.com/maps?q=45.3665389,18.9768236"
+5,frame_0085.jpg,45.3286244,18.8345052,0.3840938066801092,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3286244,18.8345052"
+
+Rezultati - ViT (Kosinusna udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0091.jpg,45.3280104,18.8332456,0.0,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3280104,18.8332456"
+2,frame_0089.jpg,45.3282177,18.8336659,0.06258481367916813,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3282177,18.8336659"
+3,frame_0095.jpg,45.3275902,18.8324066,0.07155679803409598,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3275902,18.8324066"
+4,frame_0093.jpg,45.3277992,18.8328238,0.09563910961150479,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3277992,18.8328238"
+5,frame_0083.jpg,45.3288247,18.8349289,0.09868966944875146,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3288247,18.8349289"
+
+Rezultati - ViT (Euklidska udaljenost)
+Rank,Image,Lat,Lon,Dist,Adresa,Google Maps
+1,frame_0091.jpg,45.3280104,18.8332456,0.0,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3280104,18.8332456"
+2,frame_0089.jpg,45.3282177,18.8336659,0.3537932512377153,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3282177,18.8336659"
+3,frame_0095.jpg,45.3275902,18.8324066,0.37830352036958015,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3275902,18.8324066"
+4,frame_0093.jpg,45.3277992,18.8328238,0.437353790920248,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3277992,18.8328238"
+5,frame_0083.jpg,45.3288247,18.8349289,0.44427399255926947,"Ulica križnog puta, Nuštar, Općina Nuštar, Vukovarsko-srijemska županija, 32221, Hrvatska","https://www.google.com/maps?q=45.3288247,18.8349289"
